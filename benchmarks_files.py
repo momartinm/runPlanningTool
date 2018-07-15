@@ -40,7 +40,7 @@ AGRICOLA_BENCHMARKS = [
 CALDERA_BENCHMARKS = [
     Benchmark("caldera", "domain.pddl", "p01.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("caldera", "domain.pddl", "p02.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("caldera", "domain.pddl", "p03.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0)
+    Benchmark("caldera", "domain.pddl", "p03.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("caldera", "domain.pddl", "p04.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("caldera", "domain.pddl", "p05.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("caldera", "domain.pddl", "p06.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
