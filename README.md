@@ -4,6 +4,36 @@ Planning tool to run planners and domains creating singularity containers. This 
 
 ### Prerequisites
 
+Installing singularity:
+
+This repo includes a version of singularity. Then it is not necessary to clone the master repo. 
+
+```
+git clone https://github.com/singularityware/singularity.git
+cd singularity
+./autogen.sh
+./configure --prefix=/usr/local
+make
+sudo make install
+```
+
+Installing virtualbox from repository:
+
+```
+sudo apt-get install virtualbox-5.1
+
+```
+
+Installing val
+
+Val is a tool to validate the plans generate by a planner. A compile version is include to the repo at the main folder. But, I recomend to compile the version include in the folder VAL.
+
+
+```
+cd VAL
+make
+mv validate ../
+```
 
 
 ### Configuring the benchmarks
@@ -36,6 +66,15 @@ ALL_PLANNERS = {
 ```
 
 Where the index is the name of the planner, the second is the url to repository where the planner is stored (this option is not available yet) and the third is the name of the folder where the source code of the planner is stored. 
+
+### Configuring the validation system
+
+We must configurate the validation process depending if we are going to use temporal or classical domain. The variable TEMPORAL_DOMAINS can be tunned to support temporal or classical validation. For classical validation its value must be false. 
+
+```
+TEMPORAL_DOMAINS = False
+```
+
 
 ### How to use
 
