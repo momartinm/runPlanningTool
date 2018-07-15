@@ -53,7 +53,7 @@ But, it is possible to choose the domains and planners which are going to be exe
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
 
 ## Acknowledgments
 * Florian Pommerening
