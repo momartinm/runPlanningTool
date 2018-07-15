@@ -14,7 +14,7 @@ RESULT_OUTPUT = os.path.join(SCRIPT_DIR, "results")
 RESULT_CACHE = os.path.join(SCRIPT_DIR, ".last_results.pickle")
 
 VAL_PATH = os.path.join(SCRIPT_DIR, "validate")
-TEMPORAL_DOMAINS = True
+TEMPORAL_DOMAINS = False
 
 SINGULARITY_VM = os.path.join(SCRIPT_DIR, "singularityvm")
 SINGULARITY_VM_INPUT_DIR = os.path.join(SINGULARITY_VM, "input")
