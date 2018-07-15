@@ -4,6 +4,15 @@ Planning tool to run planners and domains creating singularity containers. This 
 
 ### Prerequisites
 
+Installing basic tools:
+
+```
+sudo apt-get install python-setuptools python-dev build-essential 
+sudo easy_install pip 
+sudo pip install --upgrade virtualenv 
+
+```
+
 Installing singularity:
 
 This repo includes a version of singularity. Then it is not necessary to clone the master repo. 
@@ -21,10 +30,16 @@ Installing virtualbox from repository:
 
 ```
 sudo apt-get install virtualbox-5.1
-
 ```
 
-Installing val
+Installing vagrant:
+
+```
+sudo apt-get install vagrant
+pip install python-vagrant
+```
+
+Installing val (PDDL validator):
 
 Val is a tool to validate the plans generate by a planner. A compile version is include to the repo at the main folder. But, I recomend to compile the version include in the folder VAL.
 
@@ -34,7 +49,6 @@ cd VAL
 make
 mv validate ../
 ```
-
 
 ### Configuring the benchmarks
 
