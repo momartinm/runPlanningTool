@@ -42,8 +42,7 @@ Installing val (PDDL validator):
 Val is a tool to validate the plans generate by a planner. A compile version is include to the repo at the main folder. But, I recomend to download and compile a new version.
 
 ```
-git clone https://github.com/KCL-Planning/VAL.git
-cd VAL
+cd val
 make
 mv validate ../
 ```
