@@ -7,8 +7,7 @@ Planning tool to run planners and domains creating singularity containers. This 
 Installing basic tools:
 
 ```
-sudo apt-get install python-setuptools python-dev build-essential 
-sudo easy_install pip 
+sudo apt-get install python-setuptools python-dev build-essential python-pip
 sudo pip install --upgrade virtualenv 
 ```
 
