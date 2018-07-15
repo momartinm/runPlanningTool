@@ -7,7 +7,7 @@ Planning tool to run planners and domains creating singularity containers. This 
 Installing basic tools:
 
 ```
-sudo apt-get install python-setuptools python-dev build-essential python-pip libtool libarchive-dev git-all
+sudo apt-get install python-setuptools python-dev build-essential python-pip libtool libarchive-dev bison flex
 sudo pip install --upgrade virtualenv 
 ```
 
@@ -27,7 +27,7 @@ sudo make install
 Installing virtualbox from repository:
 
 ```
-sudo apt-get install virtualbox-5.1
+sudo apt-get install virtualbox
 ```
 
 Installing vagrant:
@@ -42,8 +42,7 @@ Installing val (PDDL validator):
 Val is a tool to validate the plans generate by a planner. A compile version is include to the repo at the main folder. But, I recomend to download and compile a new version.
 
 ```
-git clone https://github.com/KCL-Planning/VAL.git
-cd VAL
+cd val
 make
 mv validate ../
 ```
