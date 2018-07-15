@@ -7,7 +7,7 @@ Planning tool to run planners and domains creating singularity containers. This 
 Installing basic tools:
 
 ```
-sudo apt-get install python-setuptools python-dev build-essential python-pip libtool libarchive-dev git bison flex
+sudo apt-get install python-setuptools python-dev build-essential python-pip libtool libarchive-dev bison flex
 sudo pip install --upgrade virtualenv 
 ```
 
@@ -27,7 +27,7 @@ sudo make install
 Installing virtualbox from repository:
 
 ```
-sudo apt-get install virtualbox-5.1
+sudo apt-get install virtualbox
 ```
 
 Installing vagrant:
