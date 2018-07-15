@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall  -g  -rdynamic CMakeFiles/optic-clp.dir/opticMain.o CMakeFiles/optic-clp.dir/solver-clp.o  -o optic-clp  -L/home/momartin/tools/optic/src/optic/cmake-build-debug libOpticCommon.a -lCbcSolver -lCbc -lCgl -lOsiClp -lOsi -lClp -lCoinUtils -lz -lbz2 -lParsePDDL -lInst 

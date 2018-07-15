@@ -1,0 +1,6 @@
+/home/momartin/tools/optic/src/optic/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/momartin/tools/optic/src/optic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/momartin/tools/optic/src/optic/cmake-build-debug/CMakeFiles/OpticCommon.dir
+/home/momartin/tools/optic/src/optic/cmake-build-debug/CMakeFiles/doc.dir
+/home/momartin/tools/optic/src/optic/cmake-build-debug/CMakeFiles/optic-clp.dir
+/home/momartin/tools/optic/src/optic/cmake-build-debug/CMakeFiles/doxygenoptic.dir

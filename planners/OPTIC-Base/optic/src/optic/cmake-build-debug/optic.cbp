@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="optic"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\cmake\modules\;CMake Files\..\;CMake Files\..\cmake\;CMake Files\..\cmake\modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/momartin/tools/optic/src/optic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/momartin/tools/optic/src/optic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/momartin/tools/optic/src/optic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpticCommon">
+				<Option output="/home/momartin/tools/optic/src/optic/cmake-build-debug/libOpticCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/momartin/tools/optic/src/optic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/parsing"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpticCommon"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpticCommon/fast">
+				<Option output="/home/momartin/tools/optic/src/optic/cmake-build-debug/libOpticCommon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/momartin/tools/optic/src/optic/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/parsing"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 OpticCommon/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doc">
+				<Option working_dir="/home/momartin/tools/optic/src/optic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 doc"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optic-clp">
+				<Option output="/home/momartin/tools/optic/src/optic/cmake-build-debug/optic-clp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/parsing"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 optic-clp"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="optic-clp/fast">
+				<Option output="/home/momartin/tools/optic/src/optic/cmake-build-debug/optic-clp" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir=""/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/parsing"/>
+					<Add directory="/usr/include/coin"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 optic-clp/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="doxygenoptic">
+				<Option working_dir="/home/momartin/tools/optic/src/optic/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 doxygenoptic"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/home/momartin/tools/optic/src/optic/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/momartin/tools/optic/src/optic/FFEvent.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/FFEvent.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/FFSolver.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/FFSolver.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/NNF.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/NNF.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/PreferenceHandler.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/PreferenceHandler.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/RPGBuilder.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/RPGBuilder.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/RPGBuilderAnalysis.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/RPGBuilderEvaluation.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/RPGBuilderNumerics.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/choosepreconditions.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/choosepreconditions.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/compressionsafescheduler.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/compressionsafescheduler.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/globals.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/globals.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/lpscheduler.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/lpscheduler.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/minimalstate.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/minimalstate.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/numericanalysis.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/numericanalysis.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/opticMain.cpp">
+			<Option target="optic-clp"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/partialordertransformer.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/partialordertransformer.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/solver-clp.cpp">
+			<Option target="optic-clp"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/solver-clp.h">
+			<Option target="optic-clp"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/solver.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/solver.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/temporalanalysis.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/temporalanalysis.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/temporalconstraints.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/temporalconstraints.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/totalordertransformer.cpp">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/totalordertransformer.h">
+			<Option target="OpticCommon"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/UseDoxygen.cmake">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/Doxyfile.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/cmake/modules/FindClp.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/cmake/modules/FindCoinUtils.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/cmake/modules/FindCbc.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/cmake/modules/FindCgl.cmake">
+			<Option virtualFolder="CMake Files\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/../cmake/modules/FindOSI.cmake">
+			<Option virtualFolder="CMake Files\..\cmake\modules\"/>
+		</Unit>
+		<Unit filename="/home/momartin/tools/optic/src/optic/../cmake/modules/FindGSL.cmake">
+			<Option virtualFolder="CMake Files\..\cmake\modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
