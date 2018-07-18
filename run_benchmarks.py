@@ -11,9 +11,11 @@ import sys
 
 from paths import PLANNER_DIR, REPO_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT
 from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
-from benchmarks import test_container
+from benchmarks import test_container, test_container_multi
 from singularity import try_build_image, try_extract_labels
 from results import Result
+from multiprocessing import Pool
+import multiprocessing
 
 def file_exists(path, force_overwrite):
     if os.path.exists(path):
@@ -27,6 +29,11 @@ def file_exists(path, force_overwrite):
 
 def create_and_test_image(planner_name, benchmarks=None, stored_result=None, force_overwrite=False):
     result = Result()
+    test_params = []
+    cpuNum = 20
+    if multiprocessing.cpu_count() < 20:
+        cpuNum = multiprocessing.cpu_count()
+    pool = Pool(cpuNum)
 
     image_path = os.path.join(IMAGES_DIR, "%s.img" % (planner_name))
 
@@ -47,8 +54,15 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, for
     if not os.path.exists(results_path):
         os.mkdir(results_path)
 
+    for key, value in benchmarks.iteritems():
+        benchmark = {key: value}
+        test_params.append([""+image_path, benchmark, ""+results_path])
+        print(benchmark)
+
     # Test the image.
-    result.benchmark_results = test_container(image_path, benchmarks, results_path)
+    pool.map(test_container_multi, test_params)
+
+    #result.benchmark_results = test_container(image_path, benchmarks, results_path)
     result.labels = try_extract_labels(image_path)
 
     return result

@@ -41,6 +41,25 @@ def test_container(image_path, benchmarks, results_path):
 
     return results
 
+def test_container_multi(params):
+    image_path = params[0]
+    benchmarks = params[1]
+    results_path = params[2]
+    results = []
+    for benchmark_key, benchmark_instances in benchmarks.iteritems():
+        benchmark_results_path = results_path + benchmark_key
+
+        if not os.path.exists(benchmark_results_path):
+            os.mkdir(benchmark_results_path)
+
+        for benchmark in benchmark_instances:
+            instance_path = benchmark_results_path + '/' + benchmark.problem[:-5]
+            if not os.path.exists(instance_path):
+                os.mkdir(instance_path)
+            results.append(test_container_on_benchmark(image_path, benchmark, instance_path))
+
+    return results
+
 
 def parse_val_output(output):
 

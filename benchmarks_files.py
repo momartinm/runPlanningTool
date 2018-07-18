@@ -248,6 +248,7 @@ TERMES_BENCHMARKS = [
 
 
 ALL_BENCHMARKS = {
+    # "cushing":CUSHING_BENCHMARKS,
     "agricola":AGRICOLA_BENCHMARKS,
     "caldera":CALDERA_BENCHMARKS,
     "data-network":DATANET_BENCHMARKS,
@@ -258,5 +259,4 @@ ALL_BENCHMARKS = {
     "snake":SNAKE_BENCHMARKS,
     "spider":SPIDER_BENCHMARKS,
     "termes":TERMES_BENCHMARKS,
-
 }
