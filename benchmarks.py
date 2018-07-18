@@ -41,11 +41,12 @@ def test_container(image_path, benchmarks, results_path):
 
     return results
 
-def test_container_multi(params):
+def test_container_multiProcessor(params):
     image_path = params[0]
     benchmarks = params[1]
     results_path = params[2]
     results = []
+
     for benchmark_key, benchmark_instances in benchmarks.iteritems():
         benchmark_results_path = results_path + benchmark_key
 

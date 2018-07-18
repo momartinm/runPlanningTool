@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from collections import defaultdict
-from benchmarks_files import ALL_BENCHMARKS
+from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
 from planners import ALL_PLANNERS
 
 import cPickle as pickle
@@ -11,7 +11,7 @@ import sys
 
 from paths import PLANNER_DIR, REPO_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT
 from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
-from benchmarks import test_container, test_container_multi
+from benchmarks import test_container, test_container_multiProcessor
 from singularity import try_build_image, try_extract_labels
 from results import Result
 from multiprocessing import Pool
@@ -57,11 +57,11 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, for
     for key, value in benchmarks.iteritems():
         benchmark = {key: value}
         test_params.append([""+image_path, benchmark, ""+results_path])
-        print(benchmark)
 
-    # Test the image.
-    pool.map(test_container_multi, test_params)
+    # Test the image, each domain receives a different processor.
+    pool.map(test_container_multiProcessor, test_params)
 
+    #
     #result.benchmark_results = test_container(image_path, benchmarks, results_path)
     result.labels = try_extract_labels(image_path)
 
@@ -100,8 +100,12 @@ if __name__ == "__main__":
             planners_names.append(arg)
         elif arg in ALL_BENCHMARKS.keys():
             benchmarks[arg] = ALL_BENCHMARKS.get(arg)
+        elif arg == "ipc18":
+            benchmarks = IPC18_BENCHMARKS
+        elif arg == "all-temporal":
+            benchmarks = ALL_TEMPORAL_BENCHMARKS
         else:
-            print "Arguments must be valid track or team names. Change the variables ALL_TRACKS and ALL_TEAMS in this script to build other images."
+            print "Arguments must be valid planner or domain names."
             sys.exit(1)
 
     planners_names = planners_names or ALL_PLANNERS.keys()

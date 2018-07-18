@@ -101,6 +101,11 @@ But, it is possible to choose the domains and planners which are going to be exe
  run_benchmarks.py OPTIC-Base cushing
 ```
 
+Currently there are some keywords that will lead to running experiments on a group of related domains. They are:
+* ipc18;
+* all-temporal.
+
+More will be created as we continue adding more domains.
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details

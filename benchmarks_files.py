@@ -248,7 +248,7 @@ TERMES_BENCHMARKS = [
 
 
 ALL_BENCHMARKS = {
-    # "cushing":CUSHING_BENCHMARKS,
+    "cushing":CUSHING_BENCHMARKS,
     "agricola":AGRICOLA_BENCHMARKS,
     "caldera":CALDERA_BENCHMARKS,
     "data-network":DATANET_BENCHMARKS,
@@ -259,4 +259,21 @@ ALL_BENCHMARKS = {
     "snake":SNAKE_BENCHMARKS,
     "spider":SPIDER_BENCHMARKS,
     "termes":TERMES_BENCHMARKS,
+}
+
+IPC18_BENCHMARKS = {
+    "agricola": AGRICOLA_BENCHMARKS,
+    "caldera": CALDERA_BENCHMARKS,
+    "data-network": DATANET_BENCHMARKS,
+    "nurikabe": NURIKABE_BENCHMARKS,
+    "organic-synthesis": ORGANIC_SYNTHESIS_BENCHMARKS,
+    "petri-net-alignment": PETRI_NET_ALIGNMENT_BENCHMARKS,
+    "settlers": SETTLERS_BENCHMARKS,
+    "snake": SNAKE_BENCHMARKS,
+    "spider": SPIDER_BENCHMARKS,
+    "termes": TERMES_BENCHMARKS,
+}
+
+ALL_TEMPORAL_BENCHMARKS = {
+    "cushing": CUSHING_BENCHMARKS,
 }
