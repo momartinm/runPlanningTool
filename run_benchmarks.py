@@ -3,6 +3,7 @@
 from collections import defaultdict
 from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
 from planners import ALL_PLANNERS
+from results_info import getResultsForPlanner
 
 import cPickle as pickle
 import os
@@ -58,10 +59,12 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, for
         benchmark = {key: value}
         test_params.append([""+image_path, benchmark, ""+results_path])
 
+
+    #TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
     # Test the image, each domain receives a different processor.
     pool.map(test_container_multiProcessor, test_params)
 
-    #
+
     #result.benchmark_results = test_container(image_path, benchmarks, results_path)
     result.labels = try_extract_labels(image_path)
 
@@ -118,3 +121,6 @@ if __name__ == "__main__":
         os.mkdir(IMAGES_DIR)
 
     cached_create_and_test_images(planners_names, benchmarks, False)
+    
+    for planner in planners_names:
+        getResultsForPlanner(planner)
