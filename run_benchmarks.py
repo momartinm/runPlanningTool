@@ -32,6 +32,7 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, for
     result = Result()
     test_params = []
     cpuNum = 20
+
     if multiprocessing.cpu_count() < 20:
         cpuNum = multiprocessing.cpu_count()
     pool = Pool(cpuNum)
@@ -45,6 +46,7 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, for
         print("Building %s" % image_path)
         planner_path = os.path.join(PLANNER_DIR, "%s" % (ALL_PLANNERS[planner_name].getFolder()))
         result.build_successful, result.build_logs = try_build_image(planner_path, image_path, planner_name)
+
         if not result.build_successful:
             print("Building %s failed" % image_path)
             return result
@@ -55,9 +57,13 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, for
     if not os.path.exists(results_path):
         os.mkdir(results_path)
 
-    for key, value in benchmarks.iteritems():
-        benchmark = {key: value}
-        test_params.append([""+image_path, benchmark, ""+results_path])
+    for key, values in benchmarks.iteritems():
+
+        for value in values:
+            #print value
+            benchmark = {key: [value]}
+            #print benchmark
+            test_params.append([""+image_path, benchmark, ""+results_path])
 
 
     #TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
@@ -121,6 +127,6 @@ if __name__ == "__main__":
         os.mkdir(IMAGES_DIR)
 
     cached_create_and_test_images(planners_names, benchmarks, False)
-    
+
     for planner in planners_names:
         getResultsForPlanner(planner)
