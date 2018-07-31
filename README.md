@@ -47,10 +47,10 @@ make
 mv validate ../
 ```
 
-### Configuring the benchmarks
+### Adding benchmarks
 
-It is necesary to configure the different benchmarks which are going to be executed. The file benchmarks_files.py must be tunned by the user in order to include the different domains and problems which must be executed. A list of the different instances must be created for each domain, following the next example:
-
+It is necessary to configure the different benchmarks in order for them to be executed. 
+Inside of file benchmarks_files.py, create a list with all the different
 ```
 CUSHING_BENCHMARKS = [
     Benchmark("Cushing", "domain.pddl", "pfile1.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
@@ -80,7 +80,7 @@ Where the index is the name of the planner, the second is the url to repository 
 
 ### Configuring the validation system
 
-We must configurate the validation process depending if we are going to use temporal or classical domain. The variable TEMPORAL_DOMAINS can be tunned to support temporal or classical validation. For classical validation its value must be false. 
+We must configurate the validation process, in file paths.py, depending if we are going to use temporal or classical domain. The variable TEMPORAL_DOMAINS can be tunned to support temporal or classical validation. For classical validation its value must be false. 
 
 ```
 TEMPORAL_DOMAINS = False

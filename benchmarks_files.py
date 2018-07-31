@@ -122,11 +122,11 @@ ORGANIC_SYNTHESIS_BENCHMARKS = [
     Benchmark("organic-synthesis", "domain-p13.pddl", "p13.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("organic-synthesis", "domain-p14.pddl", "p14.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("organic-synthesis", "domain-p15.pddl", "p15.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("organic-synthesis", "domain-p10.pddl", "p16.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("organic-synthesis", "domain-p10.pddl", "p17.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("organic-synthesis", "domain-p10.pddl", "p18.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("organic-synthesis", "domain-p10.pddl", "p19.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("organic-synthesis", "domain-p10.pddl", "p20.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("organic-synthesis", "domain-p16.pddl", "p16.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("organic-synthesis", "domain-p17.pddl", "p17.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("organic-synthesis", "domain-p18.pddl", "p18.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("organic-synthesis", "domain-p19.pddl", "p19.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("organic-synthesis", "domain-p20.pddl", "p20.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
 ]
 
 PETRI_NET_ALIGNMENT_BENCHMARKS = [
@@ -145,11 +145,11 @@ PETRI_NET_ALIGNMENT_BENCHMARKS = [
     Benchmark("petri-net-alignment", "domain-p13.pddl", "p13.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("petri-net-alignment", "domain-p14.pddl", "p14.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
     Benchmark("petri-net-alignment", "domain-p15.pddl", "p15.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("petri-net-alignment", "domain-p10.pddl", "p16.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("petri-net-alignment", "domain-p10.pddl", "p17.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("petri-net-alignment", "domain-p10.pddl", "p18.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("petri-net-alignment", "domain-p10.pddl", "p19.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("petri-net-alignment", "domain-p10.pddl", "p20.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("petri-net-alignment", "domain-p16.pddl", "p16.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("petri-net-alignment", "domain-p17.pddl", "p17.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("petri-net-alignment", "domain-p18.pddl", "p18.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("petri-net-alignment", "domain-p19.pddl", "p19.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+    Benchmark("petri-net-alignment", "domain-p20.pddl", "p20.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
 ]
 
 SETTLERS_BENCHMARKS = [
@@ -245,6 +245,10 @@ TERMES_BENCHMARKS = [
     Benchmark("termes", "domain.pddl", "p20.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
 ]
 
+PARISA_BENCHMARK = {
+    Benchmark("emre", "domain.pddl", "p01.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
+}
+
 
 
 ALL_BENCHMARKS = {
@@ -259,6 +263,7 @@ ALL_BENCHMARKS = {
     "snake":SNAKE_BENCHMARKS,
     "spider":SPIDER_BENCHMARKS,
     "termes":TERMES_BENCHMARKS,
+    "emre": PARISA_BENCHMARK,
 }
 
 IPC18_BENCHMARKS = {
