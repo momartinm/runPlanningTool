@@ -72,7 +72,7 @@ SOKOBAN, temporal/sokoban, domain.pddl, instance-20.pddl, , , 0, 0, 0
 
 #QUANTUM
 QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n4_i1_u1.0_P1_V2.pddl, 1, 1, 0, 0, 0
-QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n4_i27_u1.0_P1_V2.pddl,3 3, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n4_i27_u1.0_P1_V2.pddl,3, 3, 0, 0, 0
 QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n8_i7_u1.0_P1_V2.pddl, 6, 6, 0, 0, 0
 QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n8_i34_u1.0_P1_V2.pddl, 8, 8, 0, 0, 0
 QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n8_i38_u0.9_P1_V2.pddl, 9, 9, 0, 0, 0

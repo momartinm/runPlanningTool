@@ -29,7 +29,7 @@ def file_exists(path, force_overwrite):
             return True
     return False
 
-def create_and_test_image(planner_name, benchmarks=None, stored_result=None, cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
+def create_and_test_image(planner_name, planners, benchmarks=None, stored_result=None, cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
     result = Result()
     test_params = []
 
@@ -41,7 +41,7 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, cpu
     else:
         # Build the image.
         print("Building %s" % image_path)
-        planner_path = os.path.join(PLANNER_DIR, "%s" % (ALL_PLANNERS[planner_name].getFolder()))
+        planner_path = os.path.join(PLANNER_DIR, "%s" % (planners[planner_name].getFolder()))
         result.build_successful, result.build_logs = try_build_image(planner_path, image_path, planner_name)
 
         if not result.build_successful:
@@ -72,11 +72,11 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, cpu
 
     return result
 
-def create_and_test_images(planner_names, benchmarks = None, results=defaultdict(dict), cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
+def create_and_test_images(planner_names, planners, benchmarks = None, results=defaultdict(dict), cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
     oldmask = os.umask(022)
     for planner in planner_names:
         stored_result = None #results[planner].get(track)
-        result = create_and_test_image(planner, benchmarks, stored_result, cpu_number, force_overwrite)
+        result = create_and_test_image(planner, planners, benchmarks, stored_result, cpu_number, force_overwrite)
         results[planner] = result
     os.umask(oldmask)
     return results
@@ -89,13 +89,16 @@ def save_stored_results(results):
     with open(RESULT_CACHE, "wb") as f:
         pickle.dump(results, f)
 
-def cached_create_and_test_images(planners_names, benchmarks, cpu_number, force_overwrite=False):
+def cached_create_and_test_images(planners_names, planners, benchmarks, cpu_number, force_overwrite=False):
     stored_results = defaultdict(dict)
-    results = create_and_test_images(planners_names, benchmarks, stored_results, cpu_number, force_overwrite)
+    results = create_and_test_images(planners_names, planners, benchmarks, stored_results, cpu_number, force_overwrite)
     save_stored_results(results)
     return results
 
 if __name__ == "__main__":
+
+    ipc = False
+    tipc = False
 
     planners_names = []
     benchmarks = {}
@@ -107,22 +110,25 @@ if __name__ == "__main__":
                         help='a path to the file with the information about the different benchmarks.')
     parser.add_argument('-p', metavar='planners',
                         help='a path to the file with the information about the different planners which can be executed.')
-    parser.add_argument('-t', metavar='temporal',
+    parser.add_argument('-t', metavar='temporal', action='store_const', const=True, default=False,
                         help='a boolean parameter which activate temporal validation')
-    parser.add_argument('-ipc2018', metavar='temporal',
+    parser.add_argument('-ipc2018', metavar='temporal', action='store_const', const=True, default=False,
                         help='a boolean parameter which run ipc 2018')
-    parser.add_argument('-tipc2018', metavar='temporal',
-                        help='a boolean parameter which run ipc 2018')
+    parser.add_argument('-tipc2018', metavar='temporal', action='store_const', const=True, default=False,
+                        help='a boolean parameter which run temporal ipc 2018')
     parser.add_argument('-proc', metavar='cpu numbers',
                         help='a number parameter which defines the maximum number of cpus (threads). Default value is value is ')
     parser.add_argument('-pn', metavar='planner names', nargs='+',
                         help='a list parameter which defines the names of the planner which are going to be executed')
     parser.add_argument('-bn', metavar='planner names', nargs='+',
                         help='a list parameter which defines the names of the benchmarks which are going to be used')
-    parser.add_argument("--v", metavar='verbosity',
+    parser.add_argument("--v", metavar='verbosity', action='store_const', const=True, default=False,
                         help="increase output verbosity")
 
     args = parser.parse_args()
+
+    verbosity = True if args.v else False
+    temporal = True if args.t else False
 
     if args.b is not None and args.p is not None:
         if os.path.isfile(args.b):
@@ -143,16 +149,13 @@ if __name__ == "__main__":
     else:
         parser.print_usage()
 
-    temporal = args.t if args.t is not None else False
-    verbosity = args.v if args.v is not None else False
-
     if args.proc is not None:
         if args.proc > multiprocessing.cpu_count():
             cpu_number = multiprocessing.cpu_count()
         else:
             cpu_number = args.proc
 
-    planners_names = planners.keys()
+    planners_names = args.pn if args.pn is not None else planners.keys()
 
     if not os.path.exists(RESULT_OUTPUT):
         os.mkdir(RESULT_OUTPUT)
@@ -160,7 +163,7 @@ if __name__ == "__main__":
     if not os.path.exists(IMAGES_DIR):
         os.mkdir(IMAGES_DIR)
 
-    cached_create_and_test_images(planners_names, benchmarks, cpu_number, False)
+    cached_create_and_test_images(planners_names, planners, benchmarks, cpu_number, False)
 
     for planner in planners_names:
         getResultsForPlanner(planner)

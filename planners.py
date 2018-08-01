@@ -2,8 +2,8 @@
 
 class Planner(object):
     def __init__(self, repo, folder):
-        self.repo = repo
-        self.folder = folder
+        self.repo = repo.strip()
+        self.folder = folder.strip()
 
     def getRepo(self):
         return self.repo
