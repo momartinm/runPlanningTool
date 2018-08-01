@@ -59,9 +59,9 @@ AGRICOLA, agricola, domain.pddl, p01.pddl, , , 0, 0, 0
 Where the first item is the key of the domain, all the instance of a domain must use the same key, the second is the name of the folder where the domains and instances are stored. The third is the name of domain file. The fourth is the name of the problem file. The fifth is the folder of the domain file. The sixth is the folder of the problem file. The last three are related with the cost of solving a specific instance (These three are not available in this first version). Comments can be includen into the file using the character '#' at the begining of the line.
 
 
-### Configuring the planners
+### Creating planner files
 
-After this, it is necesary to define the differe planners which are going to be used to solve the different benchmarks. A benchmark file must be created by the user in order to include the different planners following the next example:
+After this, it is necesary to define the different planners which are going to be used to solve the different benchmarks. A planner file must be created by the user in order to include the different planners following the next example:
 
 ```
 "OPTIC-Base", , "OPTIC-Base"
@@ -80,26 +80,31 @@ Finally the code can be executed using the python program called run_benchmarks.
 
 There are different options to execute this software:
 
+```
 usage: run_benchmarks.py [-h] [-b benchmarks-domains] [-p planners]
                          [-t] [-ipc2018] [-tipc2018 ] [-proc cpu-numbers]
                          [-pn [planner names ...]]
                          [-bn [planner names ...]]
                          [--v verbosity]
+```
 
-Planning tool to run planners and domains using singularity containers.
-
-optional arguments:
-  -h, --help                show this help message and exit
-  -b benchmarks domains     a path to the file with the information about the different benchmarks.
-  -p planners               a path to the file with the information about the different planners which can be executed.
-  -t                        a boolean parameter which activate temporal validation
-  -ipc2018                  a boolean parameter which run ipc 2018
-  -tipc2018                 a boolean parameter which run ipc 2018
-  -proc cpu-numbers         a number parameter which defines the maximum number of cpus (threads). Default value is value is
-  -pn [planner names ...]   a list parameter which defines the names of the planner which are going to be executed
-  -bn [planner names ...]   a list parameter which defines the names of the benchmarks which are going to be used
-  --v verbosity         increase output verbosity
-
+Planning tool to run planners and domains using singularity containers. These are the different arguments:
+```
+-h, --help                show this help message and exit.
+-b benchmarks domains     a path to the file with the information about the different benchmarks.
+-p planners               a path to the file with the information about the different planners which 
+                          can be executed.
+-t                        a boolean parameter which activate temporal validation.
+-ipc2018                  a boolean parameter which run ipc 2018.
+-tipc2018                 a boolean parameter which run ipc 2018.
+-proc cpu-numbers         a number parameter which defines the maximum number of cpus (threads). 
+                          Default value is value is 20.
+-pn [planner names ...]   a list parameter which defines the names of the planner which are going 
+                          to be executed.
+-bn [planner names ...]   a list parameter which defines the names of the benchmarks which are 
+                          going to be used.
+--v verbosity             increase output verbosity.
+```
 
 More will be created as we continue adding more domains.
 ## License
