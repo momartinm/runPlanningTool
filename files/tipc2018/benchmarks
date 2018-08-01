@@ -1,219 +1,107 @@
-#AGRICOLA_BENCHMARKS
-AGRICOLA, agricola, domain.pddl, p01.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p02.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p03.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p04.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p05.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p06.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p07.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p08.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p09.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p10.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p11.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p12.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p13.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p14.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p15.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p16.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p17.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p18.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p19.pddl, , , , , 0, 0, 0
-AGRICOLA, agricola, domain.pddl, p20.pddl, , , , , 0, 0, 0
+#FLOORTILE
+FLOORTILE, temporal/Floortile, domain.pddl, p442-1.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p442-4.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p442-5.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p443-2.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p443-3.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p552-2.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p552-4.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p553-1.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p553-3.pddl, , , 0, 0, 0
+FLOORTILE, temporal/Floortile, domain.pddl, p553-4.pddl, , , 0, 0, 0
 
-#CALDERA_BENCHMARKS
-CALDERA, caldera, domain.pddl, p01.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p02.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p03.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p04.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p05.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p06.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p07.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p08.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p09.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p10.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p11.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p12.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p13.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p14.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p15.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p16.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p17.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p18.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p19.pddl, , , 0, 0, 0
-CALDERA, caldera, domain.pddl, p20.pddl, , , 0, 0, 0
+#PARKING
+PARKING, temporal/Parking, domain.pddl, p15-9-3.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p16-10-2.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p16-10-3.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p18-11-2.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p20-12-1.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p20-12-3.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p22-13-2.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p24-14-1.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p24-14-2.pddl, , , 0, 0, 0
+PARKING, temporal/Parking, domain.pddl, p26-15-1.pddl, , , 0, 0, 0
 
-#DATANET_BENCHMARKS
-DATANET, data-network, domain.pddl, p01.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p02.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p03.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p04.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p05.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p06.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p07.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p08.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p09.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p10.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p11.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p12.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p13.pddl, , , 0, 0, 0
-DATANET, data-network, domain.pddl, p14.pddl, , , 0, 0, 0
-DATANET ,data-network, domain.pddl, p15.pddl, , , 0, 0, 0
-DATANET ,data-network, domain.pddl, p16.pddl, , , 0, 0, 0
-DATANET ,data-network, domain.pddl, p17.pddl, , , 0, 0, 0
-DATANET ,data-network, domain.pddl, p18.pddl, , , 0, 0, 0
-DATANET ,data-network, domain.pddl, p19.pddl, , , 0, 0, 0
-DATANET ,data-network, domain.pddl, p20.pddl, , , 0, 0, 0
+#TRUCKS
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-2.pddl, 2, 2, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-5.pddl, 5, 5, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-6.pddl, 6, 6, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-8.pddl, 8, 8, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-9.pddl, 9, 9, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-11.pddl, 11, 11, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-13.pddl, 13, 13, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-14.pddl, 14, 14, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-16.pddl, 16, 16, 0, 0, 0
+TRUCKS, temporal/trucks-time-strips, domain.pddl, instance-17.pddl, 17, 17, 0, 0, 0
 
-#NURIKABE_BENCHMARKS
-NURIKABE, nurikabe, domain.pddl, p01.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p02.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p03.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p04.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p05.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p06.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p07.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p08.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p09.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p10.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p11.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p12.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p13.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p14.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p15.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p16.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p17.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p18.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p19.pddl, , , 0, 0, 0
-NURIKABE, nurikabe, domain.pddl, p20.pddl, , , 0, 0, 0
+#AIRPORT
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-2.pddl, 2, 2, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-4.pddl, 4, 4, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-7.pddl, 7, 7, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-9.pddl, 9, 9, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-10.pddl, 10, 10, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-13.pddl, 13, 13, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-14.pddl, 14, 14, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-19.pddl, 19, 19, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-23.pddl, 23, 23, 0, 0, 0
+AIRPORT, temporal/airport-temporal-strips, domain.pddl, instance-27.pddl, 27, 27, 0, 0, 0
 
-#ORGANIC_SYNTHESIS_BENCHMARKS
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p01.pddl, p01.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p02.pddl, p02.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p03.pddl, p03.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p04.pddl, p04.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p05.pddl, p05.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p06.pddl, p06.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p07.pddl, p07.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p08.pddl, p08.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p09.pddl, p09.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p10.pddl, p10.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p11.pddl, p11.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p12.pddl, p12.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p13.pddl, p13.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p14.pddl, p14.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p15.pddl, p15.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p16.pddl, p16.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p17.pddl, p17.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p18.pddl, p18.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p19.pddl, p19.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS, organic-synthesis, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+#ALLEN
+ALLEN, temporal/allen_algebra, domain.pddl, pfile10.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile12.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile20.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile30.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile32.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile40.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile51.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile62.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile70.pddl, , , 0, 0, 0
+ALLEN, temporal/allen_algebra, domain.pddl, pfile81.pddl, , , 0, 0, 0
 
-#PETRI_NET_ALIGNMENT_BENCHMARKS
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p01.pddl, p01.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p02.pddl, p02.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p03.pddl, p03.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p04.pddl, p04.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p05.pddl, p05.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p06.pddl, p06.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p07.pddl, p07.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p08.pddl, p08.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p09.pddl, p09.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p10.pddl, p10.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p11.pddl, p11.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p12.pddl, p12.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p13.pddl, p13.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p14.pddl, p14.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p15.pddl, p15.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p16.pddl, p16.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p17.pddl, p17.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p18.pddl, p18.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p19.pddl, p19.pddl, , , 0, 0, 0
-PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+#SOKOBAN
+SOKOBAN, temporal/sokoban, domain.pddl, instance-2.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-5.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-7.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-9.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-11.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-12.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-14.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-15.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-17.pddl, , , 0, 0, 0
+SOKOBAN, temporal/sokoban, domain.pddl, instance-20.pddl, , , 0, 0, 0
 
-#SETTLERS_BENCHMARKS
-SETTLERS, settlers, domain.pddl, p01.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p02.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p03.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p04.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p05.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p06.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p07.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p08.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p09.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p10.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p11.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p12.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p13.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p14.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p15.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p16.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p17.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p18.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p19.pddl, , , 0, 0, 0
-SETTLERS, settlers, domain.pddl, p20.pddl, , , 0, 0, 0
+#QUANTUM
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n4_i1_u1.0_P1_V2.pddl, 1, 1, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n4_i27_u1.0_P1_V2.pddl,3 3, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n8_i7_u1.0_P1_V2.pddl, 6, 6, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n8_i34_u1.0_P1_V2.pddl, 8, 8, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n8_i38_u0.9_P1_V2.pddl, 9, 9, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n21_i1_u1.0_P1_V2.pddl, 11, 11, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n21_i13_u0.9_P1_V2.pddl, 13, 13, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n4_i1_u1.0_P1_V2.pddl, 15, 15, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n40_i9_u0.9_P1_V2.pddl, 17, 17, 0, 0, 0
+QUANTUM, temporal/quantum_circuit, domain.pddl, problem_n40_i18_u1.0_P1_V2.pddl, 18, 18, 0, 0, 0
 
-#SNAKE_BENCHMARKS
-SNAKE, snake, domain.pddl, p01.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p02.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p03.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p04.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p05.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p06.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p07.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p08.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p09.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p10.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p11.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p12.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p13.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p14.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p15.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p16.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p17.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p18.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p19.pddl, , , 0, 0, 0
-SNAKE, snake, domain.pddl, p20.pddl, , , 0, 0, 0
+#CUSHING
+CUSHING, temporal/Cushing, domain.pddl, pfile1.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile3.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile6.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile7.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile9.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile11.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile12.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile14.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile16.pddl, , , 0, 0, 0
+CUSHING, temporal/Cushing, domain.pddl, pfile19.pddl, , , 0, 0, 0
 
-#SPIDER_BENCHMARKS
-SPIDER, spider, domain.pddl, p01.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p02.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p03.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p04.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p05.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p06.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p07.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p08.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p09.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p10.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p11.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p12.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p13.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p14.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p15.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p16.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p17.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p18.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p19.pddl, , , 0, 0, 0
-SPIDER, spider, domain.pddl, p20.pddl, , , 0, 0, 0
-
-#TERMES_BENCHMARKS
-TERMES, termes, domain.pddl, p01.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p02.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p03.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p04.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p05.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p06.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p07.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p08.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p09.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p10.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p11.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p12.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p13.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p14.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p15.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p16.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p17.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p18.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p19.pddl, , , 0, 0, 0
-TERMES, termes, domain.pddl, p20.pddl, , , 0, 0, 0
+#ROAD_TRAFFIC
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-3.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-4.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-7.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-8.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-11.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-13.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-15.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-16.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-19.pddl, , , 0, 0, 0
+ROAD_TRAFFIC, temporal/road-traffic-accident, domain.pddl, instance-20.pddl, , , 0, 0, 0

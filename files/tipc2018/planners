@@ -1,1 +1,5 @@
 OPTIC-Base, , OPTIC-Base
+POPCorn, ssh://hg@bitbucket.org/p3540/popcorn, POPCorn, POPCorn
+CP4TP, ssh://hg@bitbucket.org/ertsiger/ipc-2018-tempo, CP4TP
+TFLAP, ssh://hg@bitbucket.org/osapena/tflap, TFLAP
+TemPorAl, ssh://hg@bitbucket.org/isabelcenamorg/temporal, TemPorAl
