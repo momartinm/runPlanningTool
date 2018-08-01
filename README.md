@@ -47,63 +47,59 @@ make
 mv validate ../
 ```
 
-### Adding benchmarks
+### Creating benchmark files
 
-It is necessary to configure the different benchmarks in order for them to be executed. 
-Inside of file benchmarks_files.py, create a list with all the different
-```
-CUSHING_BENCHMARKS = [
-    Benchmark("Cushing", "domain.pddl", "pfile1.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-    Benchmark("Cushing", "domain.pddl", "pfile3.pddl", optimal_plan_cost_lower_bound=0, optimal_plan_cost_upper_bound=0, cost_bound=0),
-]
-```
-
-Where the first name is the name of the folder where the domains and instances are stored. This folder must be created inside of the benchmarks folder. The second is the name of domain file. The third is the name of the problem file. The last three are related with the cost of solving a specific instance (These three are not available in this first version). Several domains can be defined using the next structure:
+It is necessary to configure the different benchmarks in order for them to be executed. A benchmark file must be created with the information of each instance using the same sintax:
 
 ```
-ALL_BENCHMARKS = {
-    "cushing":CUSHING_BENCHMARKS,
-}
-```
-
-### Configuring the plannes
-
-After this, it is necesary to configure the different planners which are going to be used to solve the different benchmarks. The file planners.py must be tunned by the user in order to include the different planners. A dict with the planners must be created following the next example:
+AGRICOLA, agricola, domain.pddl, p01.pddl, , , 0, 0, 0
 
 ```
-ALL_PLANNERS = {
-    "OPTIC-Base": Planner("", "OPTIC-Base"),
-}
-```
 
-Where the index is the name of the planner, the second is the url to repository where the planner is stored (this option is not available yet) and the third is the name of the folder where the source code of the planner is stored. 
+Where the first item is the key of the domain, all the instance of a domain must use the same key, the second is the name of the folder where the domains and instances are stored. The third is the name of domain file. The fourth is the name of the problem file. The fifth is the folder of the domain file. The sixth is the folder of the problem file. The last three are related with the cost of solving a specific instance (These three are not available in this first version). Comments can be includen into the file using the character '#' at the begining of the line.
 
-### Configuring the validation system
 
-We must configurate the validation process, in file paths.py, depending if we are going to use temporal or classical domain. The variable TEMPORAL_DOMAINS can be tunned to support temporal or classical validation. For classical validation its value must be false. 
+### Configuring the planners
+
+After this, it is necesary to define the differe planners which are going to be used to solve the different benchmarks. A benchmark file must be created by the user in order to include the different planners following the next example:
 
 ```
-TEMPORAL_DOMAINS = False
+"OPTIC-Base", , "OPTIC-Base"
 ```
+
+Where the first item is the name of the planner, the second is the url to the repository (GIT, BITBUCKET) where the planner is stored (this option is not available yet) and the third is the name of the folder where the source code of the planner is stored.
 
 
 ### How to use
 
-Finally the code can be executed using the python program called run_benchmarks.py. This program will executed each domain for each planner ff the program is running without any parameters. 
+Finally the code can be executed using the python program called run_benchmarks.py. For example if we can run the full ipc 2018, we must use the same configuration
 
 ```
- run_benchmarks.py
+ run_benchmarks.py -ipc2018
 ```
 
-But, it is possible to choose the domains and planners which are going to be executed. The next example, it is only going to executed the domain cushing using the planner Optic.  
+There are different options to execute this software:
 
-```
- run_benchmarks.py OPTIC-Base cushing
-```
+usage: run_benchmarks.py [-h] [-b benchmarks-domains] [-p planners]
+                         [-t] [-ipc2018] [-tipc2018 ] [-proc cpu-numbers]
+                         [-pn [planner names ...]]
+                         [-bn [planner names ...]]
+                         [--v verbosity]
 
-Currently there are some keywords that will lead to running experiments on a group of related domains. They are:
-* ipc18;
-* all-temporal.
+Planning tool to run planners and domains using singularity containers.
+
+optional arguments:
+  -h, --help                show this help message and exit
+  -b benchmarks domains     a path to the file with the information about the different benchmarks.
+  -p planners               a path to the file with the information about the different planners which can be executed.
+  -t                        a boolean parameter which activate temporal validation
+  -ipc2018                  a boolean parameter which run ipc 2018
+  -tipc2018                 a boolean parameter which run ipc 2018
+  -proc cpu-numbers         a number parameter which defines the maximum number of cpus (threads). Default value is value is
+  -pn [planner names ...]   a list parameter which defines the names of the planner which are going to be executed
+  -bn [planner names ...]   a list parameter which defines the names of the benchmarks which are going to be used
+  --v verbosity         increase output verbosity
+
 
 More will be created as we continue adding more domains.
 ## License
