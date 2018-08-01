@@ -90,16 +90,20 @@ usage: run_benchmarks.py [-h] [-b benchmarks-domains] [-p planners]
 
 Planning tool to run planners and domains using singularity containers. These are the different arguments:
 ```
--h, --help                show this help message and exit
+-h, --help                show this help message and exit.
 -b benchmarks domains     a path to the file with the information about the different benchmarks.
--p planners               a path to the file with the information about the different planners which can be executed.
--t                        a boolean parameter which activate temporal validation
--ipc2018                  a boolean parameter which run ipc 2018
--tipc2018                 a boolean parameter which run ipc 2018
--proc cpu-numbers         a number parameter which defines the maximum number of cpus (threads). Default value is value is
--pn [planner names ...]   a list parameter which defines the names of the planner which are going to be executed
--bn [planner names ...]   a list parameter which defines the names of the benchmarks which are going to be used
---v verbosity         increase output verbosity
+-p planners               a path to the file with the information about the different planners which 
+                          can be executed.
+-t                        a boolean parameter which activate temporal validation.
+-ipc2018                  a boolean parameter which run ipc 2018.
+-tipc2018                 a boolean parameter which run ipc 2018.
+-proc cpu-numbers         a number parameter which defines the maximum number of cpus (threads). 
+                          Default value is value is 20.
+-pn [planner names ...]   a list parameter which defines the names of the planner which are going 
+                          to be executed.
+-bn [planner names ...]   a list parameter which defines the names of the benchmarks which are 
+                          going to be used.
+--v verbosity             increase output verbosity.
 ```
 
 More will be created as we continue adding more domains.
