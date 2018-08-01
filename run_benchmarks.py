@@ -1,22 +1,23 @@
 #!/usr/bin/env python
 
-from collections import defaultdict
-from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
-from planners import ALL_PLANNERS
-from results_info import getResultsForPlanner
-
 import cPickle as pickle
-import os
-from subprocess import check_call, CalledProcessError
-import sys
-
-from paths import PLANNER_DIR, REPO_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT
-from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
-from benchmarks import test_container, test_container_multiProcessor
-from singularity import try_build_image, try_extract_labels
-from results import Result
-from multiprocessing import Pool
 import multiprocessing
+import os
+# from subprocess import check_call, CalledProcessError
+import sys
+import argparse
+from collections import defaultdict
+from multiprocessing import Pool
+
+# from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
+from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
+from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
+from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR
+from planners import read_planners_from_file
+from results import Result
+from results_info import getResultsForPlanner
+from singularity import try_build_image, try_extract_labels
+
 
 def file_exists(path, force_overwrite):
     if os.path.exists(path):
@@ -28,15 +29,11 @@ def file_exists(path, force_overwrite):
             return True
     return False
 
-def create_and_test_image(planner_name, benchmarks=None, stored_result=None, force_overwrite=False):
+def create_and_test_image(planner_name, benchmarks=None, stored_result=None, cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
     result = Result()
     test_params = []
-    cpuNum = 20
 
-    if multiprocessing.cpu_count() < 20:
-        cpuNum = multiprocessing.cpu_count()
-    pool = Pool(cpuNum)
-
+    pool = Pool(cpu_number)
     image_path = os.path.join(IMAGES_DIR, "%s.img" % (planner_name))
 
     if file_exists(image_path, force_overwrite):
@@ -70,17 +67,16 @@ def create_and_test_image(planner_name, benchmarks=None, stored_result=None, for
     # Test the image, each domain receives a different processor.
     pool.map(test_container_multiProcessor, test_params)
 
-
     #result.benchmark_results = test_container(image_path, benchmarks, results_path)
     result.labels = try_extract_labels(image_path)
 
     return result
 
-def create_and_test_images(planner_names, benchmarks = None, results=defaultdict(dict), force_overwrite=False):
+def create_and_test_images(planner_names, benchmarks = None, results=defaultdict(dict), cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
     oldmask = os.umask(022)
     for planner in planner_names:
         stored_result = None #results[planner].get(track)
-        result = create_and_test_image(planner, benchmarks, stored_result, force_overwrite)
+        result = create_and_test_image(planner, benchmarks, stored_result, cpu_number, force_overwrite)
         results[planner] = result
     os.umask(oldmask)
     return results
@@ -93,9 +89,9 @@ def save_stored_results(results):
     with open(RESULT_CACHE, "wb") as f:
         pickle.dump(results, f)
 
-def cached_create_and_test_images(planners_names, benchmarks, force_overwrite=False):
+def cached_create_and_test_images(planners_names, benchmarks, cpu_number, force_overwrite=False):
     stored_results = defaultdict(dict)
-    results = create_and_test_images(planners_names, benchmarks, stored_results, force_overwrite)
+    results = create_and_test_images(planners_names, benchmarks, stored_results, cpu_number, force_overwrite)
     save_stored_results(results)
     return results
 
@@ -103,22 +99,60 @@ if __name__ == "__main__":
 
     planners_names = []
     benchmarks = {}
+    cpu_number = DEFAULT_NUMBER_PROCESSOR
 
-    for arg in sys.argv[1:]:
-        if arg in ALL_PLANNERS.keys():
-            planners_names.append(arg)
-        elif arg in ALL_BENCHMARKS.keys():
-            benchmarks[arg] = ALL_BENCHMARKS.get(arg)
-        elif arg == "ipc18":
-            benchmarks = IPC18_BENCHMARKS
-        elif arg == "all-temporal":
-            benchmarks = ALL_TEMPORAL_BENCHMARKS
+    parser = argparse.ArgumentParser(description='Planning tool to run planners and domains using singularity containers.')
+
+    parser.add_argument('-b', metavar='benchmarks domains',
+                        help='a path to the file with the information about the different benchmarks.')
+    parser.add_argument('-p', metavar='planners',
+                        help='a path to the file with the information about the different planners which can be executed.')
+    parser.add_argument('-t', metavar='temporal',
+                        help='a boolean parameter which activate temporal validation')
+    parser.add_argument('-ipc2018', metavar='temporal',
+                        help='a boolean parameter which run ipc 2018')
+    parser.add_argument('-tipc2018', metavar='temporal',
+                        help='a boolean parameter which run ipc 2018')
+    parser.add_argument('-proc', metavar='cpu numbers',
+                        help='a number parameter which defines the maximum number of cpus (threads). Default value is value is ')
+    parser.add_argument('-pn', metavar='planner names', nargs='+',
+                        help='a list parameter which defines the names of the planner which are going to be executed')
+    parser.add_argument('-bn', metavar='planner names', nargs='+',
+                        help='a list parameter which defines the names of the benchmarks which are going to be used')
+    parser.add_argument("--v", metavar='verbosity',
+                        help="increase output verbosity")
+
+    args = parser.parse_args()
+
+    if args.b is not None and args.p is not None:
+        if os.path.isfile(args.b):
+            benchmarks = read_benchmarks_from_file(args.b, args.bn)
+            if os.path.isfile(args.p):
+                planners = read_planners_from_file(args.p, args.pn)
+            else:
+                print('Error: planner file %s does not exit', args.p)
         else:
-            print "Arguments must be valid planner or domain names."
-            sys.exit(1)
+            print('Error: benchmarks file %s does not exit', args.b)
+    elif args.ipc2018:
+        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bn)
+        planners = read_planners_from_file(IPC2018_PLANNERS, args.pn)
+    elif args.tipc2018:
+        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bn)
+        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pn)
+        temporal = True
+    else:
+        parser.print_usage()
 
-    planners_names = planners_names or ALL_PLANNERS.keys()
-    benchmarks = benchmarks or ALL_BENCHMARKS
+    temporal = args.t if args.t is not None else False
+    verbosity = args.v if args.v is not None else False
+
+    if args.proc is not None:
+        if args.proc > multiprocessing.cpu_count():
+            cpu_number = multiprocessing.cpu_count()
+        else:
+            cpu_number = args.proc
+
+    planners_names = planners.keys()
 
     if not os.path.exists(RESULT_OUTPUT):
         os.mkdir(RESULT_OUTPUT)
@@ -126,7 +160,7 @@ if __name__ == "__main__":
     if not os.path.exists(IMAGES_DIR):
         os.mkdir(IMAGES_DIR)
 
-    cached_create_and_test_images(planners_names, benchmarks, False)
+    cached_create_and_test_images(planners_names, benchmarks, cpu_number, False)
 
     for planner in planners_names:
         getResultsForPlanner(planner)

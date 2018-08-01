@@ -4,6 +4,7 @@ import tempfile
 import subprocess
 
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
+FILES_DIR = os.path.join(SCRIPT_DIR, "files")
 REPO_DIR = os.path.join(SCRIPT_DIR, "repositories")
 LOGS_DIR = os.path.join(SCRIPT_DIR, "logs")
 IPC_LOGS_DIR = os.path.join(SCRIPT_DIR, "ipc_logs")
@@ -15,6 +16,7 @@ RESULT_CACHE = os.path.join(SCRIPT_DIR, ".last_results.pickle")
 
 VAL_PATH = os.path.join(SCRIPT_DIR, "validate")
 TEMPORAL_DOMAINS = False
+DEFAULT_NUMBER_PROCESSOR = 20
 
 SINGULARITY_VM = os.path.join(SCRIPT_DIR, "singularityvm")
 SINGULARITY_VM_INPUT_DIR = os.path.join(SINGULARITY_VM, "input")
@@ -22,6 +24,11 @@ SINGULARITY_VM_OUTPUT_DIR = os.path.join(SINGULARITY_VM, "output")
 SINGULARITY_VM_IMAGE = os.path.join(SINGULARITY_VM_OUTPUT_DIR, "container.img")
 SINGULARITY_VM_STDOUT = os.path.join(SINGULARITY_VM_OUTPUT_DIR, "build.log")
 SINGULARITY_VM_STDERR = os.path.join(SINGULARITY_VM_OUTPUT_DIR, "build.err")
+
+IPC2018_BENCHMARKS = os.path.join(FILES_DIR, "ipc2018", "benchmarks")
+IPC2018_PLANNERS = os.path.join(FILES_DIR, "ipc2018", "planners")
+TIPC2018_BENCHMARKS = os.path.join(FILES_DIR, "tipc2018", "benchmarks")
+TIPC2018_PLANNERS = os.path.join(FILES_DIR, "tipc2018", "planners")
 
 
 def makedirs(path):

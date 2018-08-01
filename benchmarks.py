@@ -7,7 +7,7 @@ import sys
 from shutil import copy
 from subprocess import check_output, CalledProcessError
 
-from paths import LogFiles, TempDir, PLANNER_BENCHMARKS_DIR, SCRIPT_DIR, RESULT_OUTPUT, VAL_PATH, TEMPORAL_DOMAINS
+from config import LogFiles, TempDir, PLANNER_BENCHMARKS_DIR, SCRIPT_DIR, RESULT_OUTPUT, VAL_PATH, TEMPORAL_DOMAINS
 from singularity import run_image
 
 from results import BenchmarkResult
@@ -20,9 +20,34 @@ class Benchmark(object):
         self.problem = problem
         self.domain_path = domain_path or os.path.join(PLANNER_BENCHMARKS_DIR, folder, domain)
         self.problem_path = problem_path or os.path.join(PLANNER_BENCHMARKS_DIR, folder, problem)
-        self.optimal_plan_cost_lower_bound = optimal_plan_cost_lower_bound
-        self.optimal_plan_cost_upper_bound = optimal_plan_cost_upper_bound
-        self.cost_bound = cost_bound
+        self.optimal_plan_cost_lower_bound = int(optimal_plan_cost_lower_bound)
+        self.optimal_plan_cost_upper_bound = int(optimal_plan_cost_upper_bound)
+        self.cost_bound = int(cost_bound)
+
+
+def read_benchmarks_from_file(file_path, names):
+    benchmarks = {}
+    benchmarks_file = open(file_path, 'r')
+
+    for line in benchmarks_file:
+        if len(line) > 1 and line[0] is not '#':
+            features = line.split(',')
+            if (len(features) >= 8):
+                key = features[0]
+                if names is None or key in names:
+                    if (not benchmarks.has_key(key)):
+                        benchmarks[key] = []
+                    benchmarks[key].append(Benchmark(features[1],
+                                                     features[2],
+                                                     features[3],
+                                                     features[4],
+                                                     features[5],
+                                                     features[6],
+                                                     features[7],
+                                                     features[8]))
+    benchmarks_file.close()
+
+    return benchmarks
 
 
 def test_container(image_path, benchmarks, results_path):

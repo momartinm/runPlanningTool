@@ -1,0 +1,219 @@
+#AGRICOLA_BENCHMARKS
+AGRICOLA, agricola, domain.pddl, p01.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p02.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p03.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p04.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p05.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p06.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p07.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p08.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p09.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p10.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p11.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p12.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p13.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p14.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p15.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p16.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p17.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p18.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p19.pddl, , , , , 0, 0, 0
+AGRICOLA, agricola, domain.pddl, p20.pddl, , , , , 0, 0, 0
+
+#CALDERA_BENCHMARKS
+CALDERA, caldera, domain.pddl, p01.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p02.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p03.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p04.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p05.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p06.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p07.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p08.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p09.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p10.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p11.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p12.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p13.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p14.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p15.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p16.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p17.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p18.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p19.pddl, , , 0, 0, 0
+CALDERA, caldera, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#DATANET_BENCHMARKS
+DATANET, data-network, domain.pddl, p01.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p02.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p03.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p04.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p05.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p06.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p07.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p08.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p09.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p10.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p11.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p12.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p13.pddl, , , 0, 0, 0
+DATANET, data-network, domain.pddl, p14.pddl, , , 0, 0, 0
+DATANET ,data-network, domain.pddl, p15.pddl, , , 0, 0, 0
+DATANET ,data-network, domain.pddl, p16.pddl, , , 0, 0, 0
+DATANET ,data-network, domain.pddl, p17.pddl, , , 0, 0, 0
+DATANET ,data-network, domain.pddl, p18.pddl, , , 0, 0, 0
+DATANET ,data-network, domain.pddl, p19.pddl, , , 0, 0, 0
+DATANET ,data-network, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#NURIKABE_BENCHMARKS
+NURIKABE, nurikabe, domain.pddl, p01.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p02.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p03.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p04.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p05.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p06.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p07.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p08.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p09.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p10.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p11.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p12.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p13.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p14.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p15.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p16.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p17.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p18.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p19.pddl, , , 0, 0, 0
+NURIKABE, nurikabe, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#ORGANIC_SYNTHESIS_BENCHMARKS
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p01.pddl, p01.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p02.pddl, p02.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p03.pddl, p03.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p04.pddl, p04.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p05.pddl, p05.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p06.pddl, p06.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p07.pddl, p07.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p08.pddl, p08.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p09.pddl, p09.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p10.pddl, p10.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p11.pddl, p11.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p12.pddl, p12.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p13.pddl, p13.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p14.pddl, p14.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p15.pddl, p15.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p16.pddl, p16.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p17.pddl, p17.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p18.pddl, p18.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p19.pddl, p19.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, organic-synthesis, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+
+#PETRI_NET_ALIGNMENT_BENCHMARKS
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p01.pddl, p01.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p02.pddl, p02.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p03.pddl, p03.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p04.pddl, p04.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p05.pddl, p05.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p06.pddl, p06.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p07.pddl, p07.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p08.pddl, p08.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p09.pddl, p09.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p10.pddl, p10.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p11.pddl, p11.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p12.pddl, p12.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p13.pddl, p13.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p14.pddl, p14.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p15.pddl, p15.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p16.pddl, p16.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p17.pddl, p17.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p18.pddl, p18.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p19.pddl, p19.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+
+#SETTLERS_BENCHMARKS
+SETTLERS, settlers, domain.pddl, p01.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p02.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p03.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p04.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p05.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p06.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p07.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p08.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p09.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p10.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p11.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p12.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p13.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p14.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p15.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p16.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p17.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p18.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p19.pddl, , , 0, 0, 0
+SETTLERS, settlers, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#SNAKE_BENCHMARKS
+SNAKE, snake, domain.pddl, p01.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p02.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p03.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p04.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p05.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p06.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p07.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p08.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p09.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p10.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p11.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p12.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p13.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p14.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p15.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p16.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p17.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p18.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p19.pddl, , , 0, 0, 0
+SNAKE, snake, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#SPIDER_BENCHMARKS
+SPIDER, spider, domain.pddl, p01.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p02.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p03.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p04.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p05.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p06.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p07.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p08.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p09.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p10.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p11.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p12.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p13.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p14.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p15.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p16.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p17.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p18.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p19.pddl, , , 0, 0, 0
+SPIDER, spider, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#TERMES_BENCHMARKS
+TERMES, termes, domain.pddl, p01.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p02.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p03.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p04.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p05.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p06.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p07.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p08.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p09.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p10.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p11.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p12.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p13.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p14.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p15.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p16.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p17.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p18.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p19.pddl, , , 0, 0, 0
+TERMES, termes, domain.pddl, p20.pddl, , , 0, 0, 0
