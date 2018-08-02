@@ -11,7 +11,7 @@ from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
 from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
-from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
+#from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
 from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR
 from planners import read_planners_from_file
 from results import Result
@@ -106,23 +106,23 @@ if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description='Planning tool to run planners and domains using singularity containers.')
 
-    parser.add_argument('-b', metavar='benchmarks domains',
+    parser.add_argument('-b', metavar='file path',
                         help='a path to the file with the information about the different benchmarks.')
-    parser.add_argument('-p', metavar='planners',
+    parser.add_argument('-p', metavar='file path',
                         help='a path to the file with the information about the different planners which can be executed.')
-    parser.add_argument('-t', metavar='temporal', action='store_const', const=True, default=False,
+    parser.add_argument('-t', action='store_const', const=True, default=False,
                         help='a boolean parameter which activate temporal validation')
-    parser.add_argument('-ipc2018', metavar='temporal', action='store_const', const=True, default=False,
-                        help='a boolean parameter which run ipc 2018')
-    parser.add_argument('-tipc2018', metavar='temporal', action='store_const', const=True, default=False,
-                        help='a boolean parameter which run temporal ipc 2018')
-    parser.add_argument('-proc', metavar='cpu numbers',
+    parser.add_argument('-ipc2018', action='store_const', const=True, default=False,
+                        help='a boolean parameter which run the benchmarks from the ipc 2018')
+    parser.add_argument('-tipc2018', action='store_const', const=True, default=False,
+                        help='a boolean parameter which run the benchmarks from the temporal ipc 2018')
+    parser.add_argument('-proc', metavar='cpu-numbers',
                         help='a number parameter which defines the maximum number of cpus (threads). Default value is value is ')
-    parser.add_argument('-pn', metavar='planner names', nargs='+',
+    parser.add_argument('-pid', metavar='Planner ID', nargs='+',
                         help='a list parameter which defines the names of the planner which are going to be executed')
-    parser.add_argument('-bn', metavar='planner names', nargs='+',
+    parser.add_argument('-bid', metavar='Benchmark ID', nargs='+',
                         help='a list parameter which defines the names of the benchmarks which are going to be used')
-    parser.add_argument("--v", metavar='verbosity', action='store_const', const=True, default=False,
+    parser.add_argument("-v", metavar='verbosity', action='store_const', const=True, default=False,
                         help="increase output verbosity")
 
     args = parser.parse_args()
@@ -132,19 +132,19 @@ if __name__ == "__main__":
 
     if args.b is not None and args.p is not None:
         if os.path.isfile(args.b):
-            benchmarks = read_benchmarks_from_file(args.b, args.bn)
+            benchmarks = read_benchmarks_from_file(args.b, args.bid)
             if os.path.isfile(args.p):
-                planners = read_planners_from_file(args.p, args.pn)
+                planners = read_planners_from_file(args.p, args.pid)
             else:
                 print('Error: planner file %s does not exit', args.p)
         else:
             print('Error: benchmarks file %s does not exit', args.b)
     elif args.ipc2018:
-        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bn)
-        planners = read_planners_from_file(IPC2018_PLANNERS, args.pn)
+        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bid)
+        planners = read_planners_from_file(IPC2018_PLANNERS, args.pid)
     elif args.tipc2018:
-        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bn)
-        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pn)
+        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bid)
+        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
         temporal = True
     else:
         parser.print_usage()
@@ -155,7 +155,7 @@ if __name__ == "__main__":
         else:
             cpu_number = args.proc
 
-    planners_names = args.pn if args.pn is not None else planners.keys()
+    planners_names = args.pid if args.pid is not None else planners.keys()
 
     if not os.path.exists(RESULT_OUTPUT):
         os.mkdir(RESULT_OUTPUT)

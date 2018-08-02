@@ -15,11 +15,11 @@ from results import BenchmarkResult
 class Benchmark(object):
     def __init__(self, folder, domain, problem, domain_path=None, problem_path=None,
                  optimal_plan_cost_lower_bound=None, optimal_plan_cost_upper_bound=None, cost_bound=2147483647):
-        self.folder = folder
-        self.domain = domain
-        self.problem = problem
-        self.domain_path = domain_path or os.path.join(PLANNER_BENCHMARKS_DIR, folder, domain)
-        self.problem_path = problem_path or os.path.join(PLANNER_BENCHMARKS_DIR, folder, problem)
+        self.folder = folder.strip()
+        self.domain = domain.strip()
+        self.problem = problem.strip()
+        self.domain_path = os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, domain_path.strip(), self.domain)
+        self.problem_path = os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, problem_path.strip(),  self.problem)
         self.optimal_plan_cost_lower_bound = int(optimal_plan_cost_lower_bound)
         self.optimal_plan_cost_upper_bound = int(optimal_plan_cost_upper_bound)
         self.cost_bound = int(cost_bound)
@@ -67,6 +67,7 @@ def test_container(image_path, benchmarks, results_path):
     return results
 
 def test_container_multiProcessor(params):
+
     image_path = params[0]
     benchmarks = params[1]
     results_path = params[2]
