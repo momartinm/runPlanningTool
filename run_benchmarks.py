@@ -11,7 +11,6 @@ from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
 from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
-from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
 from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR
 from planners import read_planners_from_file
 from results import Result
@@ -33,7 +32,8 @@ def create_and_test_image(planner_name, planners, benchmarks=None, stored_result
     result = Result()
     test_params = []
 
-    pool = Pool(cpu_number)
+    #pool = Pool(cpu_number)
+    pool = Pool(1)
     image_path = os.path.join(IMAGES_DIR, "%s.img" % (planner_name))
 
     if file_exists(image_path, force_overwrite):
@@ -130,7 +130,14 @@ if __name__ == "__main__":
     verbosity = True if args.v else False
     temporal = True if args.t else False
 
-    if args.b is not None and args.p is not None:
+    if args.ipc2018:
+        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bn)
+        planners = read_planners_from_file(IPC2018_PLANNERS, args.pn)
+    elif args.tipc2018:
+        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bn)
+        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pn)
+        temporal = True
+    elif args.b is not None and args.p is not None:
         if os.path.isfile(args.b):
             benchmarks = read_benchmarks_from_file(args.b, args.bn)
             if os.path.isfile(args.p):
@@ -139,13 +146,6 @@ if __name__ == "__main__":
                 print('Error: planner file %s does not exit', args.p)
         else:
             print('Error: benchmarks file %s does not exit', args.b)
-    elif args.ipc2018:
-        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bn)
-        planners = read_planners_from_file(IPC2018_PLANNERS, args.pn)
-    elif args.tipc2018:
-        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bn)
-        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pn)
-        temporal = True
     else:
         parser.print_usage()
 
