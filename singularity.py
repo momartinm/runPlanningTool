@@ -6,7 +6,7 @@ import sys
 from vagrant import Vagrant
 import json
 
-from paths import makedirs, LogFiles, SINGULARITY_VM, SINGULARITY_VM_INPUT_DIR, \
+from config import makedirs, LogFiles, SINGULARITY_VM, SINGULARITY_VM_INPUT_DIR, \
   SINGULARITY_VM_OUTPUT_DIR, SINGULARITY_VM_IMAGE, SINGULARITY_VM_STDOUT, \
   SINGULARITY_VM_STDERR
 
