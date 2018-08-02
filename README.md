@@ -87,8 +87,8 @@ There are different options to execute this software:
 ```
 usage: run_benchmarks.py [-h] [-b file path] [-p file path] [-t] [-ipc2018]
                          [-tipc2018] [-proc cpu numbers]
-                         [-pn Planner ID [Planner ID ...]]
-                         [-bn Domain ID [Domain ID ...]] [--v]
+                         [-pid Planner ID [Planner ID ...]]
+                         [-bid Benchmark ID [Benchmark ID ...]] [--v]
 
 ```
 
@@ -99,13 +99,13 @@ Planning tool to run planners and domains using singularity containers. These ar
 -p planners               a path to the file with the information about the different planners which 
                           can be executed.
 -t                        a boolean parameter which activate temporal validation.
--ipc2018                  a boolean parameter which run ipc 2018.
--tipc2018                 a boolean parameter which run ipc 2018.
+-ipc2018                  a boolean parameter which run the benchmarks from the ipc 2018.
+-tipc2018                 a boolean parameter which run the benchmarks from the temporal ipc 2018.
 -proc cpu-numbers         a number parameter which defines the maximum number of cpus (threads). 
                           Default value is value is 20.
--pn [Planner ID ...]      a list parameter which defines the names of the planner which are going 
+-pid [Planner ID ...]     a list parameter which defines the names of the planner which are going 
                           to be executed.
--bn [Planner ID ...]      a list parameter which defines the names of the benchmarks which are 
+-bid [Benchmark ID ...]   a list parameter which defines the names of the benchmarks which are 
                           going to be used.
 --v verbosity             increase output verbosity.
 ```
