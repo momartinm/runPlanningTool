@@ -28,7 +28,3 @@ def read_planners_from_file(file_path, names):
     planners_file.close()
 
     return planners
-
-ALL_PLANNERS = {
-    "OPTIC-Base": Planner("", "OPTIC-Base"),
-}
