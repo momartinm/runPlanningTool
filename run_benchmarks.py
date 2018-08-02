@@ -11,10 +11,6 @@ from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
 from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
-<<<<<<< HEAD
-#from benchmarks_files import ALL_BENCHMARKS, IPC18_BENCHMARKS, ALL_TEMPORAL_BENCHMARKS
-=======
->>>>>>> bfddf416af613b4ae0ba880fc6087195daf3bf31
 from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR
 from planners import read_planners_from_file
 from results import Result
@@ -150,16 +146,6 @@ if __name__ == "__main__":
                 print('Error: planner file %s does not exit', args.p)
         else:
             print('Error: benchmarks file %s does not exit', args.b)
-<<<<<<< HEAD
-    elif args.ipc2018:
-        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bid)
-        planners = read_planners_from_file(IPC2018_PLANNERS, args.pid)
-    elif args.tipc2018:
-        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bid)
-        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
-        temporal = True
-=======
->>>>>>> bfddf416af613b4ae0ba880fc6087195daf3bf31
     else:
         parser.print_usage()
 
