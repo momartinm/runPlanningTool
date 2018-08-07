@@ -131,11 +131,11 @@ if __name__ == "__main__":
     temporal = True if args.t else False
 
     if args.ipc2018:
-        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bn)
-        planners = read_planners_from_file(IPC2018_PLANNERS, args.pn)
+        benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bid)
+        planners = read_planners_from_file(IPC2018_PLANNERS, args.pid)
     elif args.tipc2018:
-        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bn)
-        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pn)
+        benchmarks = read_benchmarks_from_file(TIPC2018_BENCHMARKS, args.bid)
+        planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
         temporal = True
     elif args.b is not None and args.p is not None:
         if os.path.isfile(args.b):
