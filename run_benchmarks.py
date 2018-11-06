@@ -11,7 +11,7 @@ from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
 from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
-from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR
+from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR
 from planners import read_planners_from_file
 from results import Result
 from results_info import getResultsForPlanner
@@ -32,8 +32,8 @@ def create_and_test_image(planner_name, planners, benchmarks=None, stored_result
     result = Result()
     test_params = []
 
-    #pool = Pool(cpu_number)
-    pool = Pool(1)
+    pool = Pool(cpu_number)
+    # pool = Pool(1)
     image_path = os.path.join(IMAGES_DIR, "%s.img" % (planner_name))
 
     if file_exists(image_path, force_overwrite):
@@ -63,7 +63,7 @@ def create_and_test_image(planner_name, planners, benchmarks=None, stored_result
             test_params.append([""+image_path, benchmark, ""+results_path])
 
 
-    #TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
+    # TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
     # Test the image, each domain receives a different processor.
     pool.map(test_container_multiProcessor, test_params)
 
@@ -107,9 +107,9 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Planning tool to run planners and domains using singularity containers.')
 
     parser.add_argument('-b', metavar='file path',
-                        help='a path to the file with the information about the different benchmarks.')
+                        help='a path to the file in files folder with the information about the different benchmarks.')
     parser.add_argument('-p', metavar='file path',
-                        help='a path to the file with the information about the different planners which can be executed.')
+                        help='a path to the file in files folder with the information about the different planners which can be executed.')
     parser.add_argument('-t', action='store_const', const=True, default=False,
                         help='a boolean parameter which activate temporal validation')
     parser.add_argument('-ipc2018', action='store_const', const=True, default=False,
@@ -138,19 +138,25 @@ if __name__ == "__main__":
         planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
         temporal = True
     elif args.b is not None and args.p is not None:
-        if os.path.isfile(args.b):
-            benchmarks = read_benchmarks_from_file(args.b, args.bid)
-            if os.path.isfile(args.p):
-                planners = read_planners_from_file(args.p, args.pid)
+        pathBenchmarks = os.path.join(FILES_DIR, args.b)
+        pathPlanners = os.path.join(FILES_DIR, args.p)
+        if os.path.isfile(pathBenchmarks):
+            benchmarks = read_benchmarks_from_file(pathBenchmarks, args.bid)
+            if os.path.isfile(pathPlanners):
+                planners = read_planners_from_file(pathPlanners, args.pid)
             else:
-                print('Error: planner file %s does not exit', args.p)
+                print('Error: planner file %s does not exit', pathPlanners)
         else:
-            print('Error: benchmarks file %s does not exit', args.b)
+            print('Error: benchmarks file %s does not exit', pathBenchmarks)
     else:
         parser.print_usage()
 
     if args.proc is not None:
-        if args.proc > multiprocessing.cpu_count():
+        print(int(args.proc) > multiprocessing.cpu_count())
+        print(multiprocessing.cpu_count())
+        print(args.proc)
+
+        if int(args.proc) > multiprocessing.cpu_count():
             cpu_number = multiprocessing.cpu_count()
         else:
             cpu_number = args.proc
@@ -163,7 +169,8 @@ if __name__ == "__main__":
     if not os.path.exists(IMAGES_DIR):
         os.mkdir(IMAGES_DIR)
 
-    cached_create_and_test_images(planners_names, planners, benchmarks, cpu_number, False)
+    # print(cpu_number)
+    cached_create_and_test_images(planners_names, planners, benchmarks, int(cpu_number), False)
 
     for planner in planners_names:
         getResultsForPlanner(planner)
