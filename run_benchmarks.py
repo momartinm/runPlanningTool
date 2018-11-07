@@ -11,7 +11,7 @@ from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
 from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
-from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR
+from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR, SCRIPT_DIR
 from planners import read_planners_from_file
 from results import Result
 from results_info import getResultsForPlanner
@@ -138,8 +138,8 @@ if __name__ == "__main__":
         planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
         temporal = True
     elif args.b is not None and args.p is not None:
-        pathBenchmarks = os.path.join(FILES_DIR, args.b)
-        pathPlanners = os.path.join(FILES_DIR, args.p)
+        pathBenchmarks = os.path.join(SCRIPT_DIR , args.b)
+        pathPlanners = os.path.join(SCRIPT_DIR, args.p)
         if os.path.isfile(pathBenchmarks):
             benchmarks = read_benchmarks_from_file(pathBenchmarks, args.bid)
             if os.path.isfile(pathPlanners):
