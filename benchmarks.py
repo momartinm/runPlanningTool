@@ -7,7 +7,7 @@ import sys
 from shutil import copy
 from subprocess import check_output, CalledProcessError
 
-from config import LogFiles, TempDir, PLANNER_BENCHMARKS_DIR, SCRIPT_DIR, RESULT_OUTPUT, VAL_PATH, CONFIG_TEMPORAL_DOMAINS
+from config import LogFiles, TempDir, PLANNER_BENCHMARKS_DIR, SCRIPT_DIR, RESULT_OUTPUT, VAL_PATH, CONFIG_TEMPORAL_DOMAINS, Configuration
 from singularity import run_image
 
 from results import BenchmarkResult
@@ -72,6 +72,7 @@ def test_container_multiProcessor(params):
     image_path = params[0]
     benchmarks = params[1]
     results_path = params[2]
+    config = params[3]
     results = []
 
     for benchmark_key, benchmark_instances in benchmarks.iteritems():
@@ -84,7 +85,7 @@ def test_container_multiProcessor(params):
             instance_path = benchmark_results_path + '/' + benchmark.problem[:-5]
             if not os.path.exists(instance_path):
                 os.mkdir(instance_path)
-            results.append(test_container_on_benchmark(image_path, benchmark, instance_path))
+            results.append(test_container_on_benchmark(image_path, benchmark, instance_path, config))
 
     return results
 
@@ -102,11 +103,30 @@ def generate_info(domain_file, problem_file, plan_file, time):
     else:
         return [VAL_PATH, "-t", time, domain_file, problem_file, plan_file]
 
-def verify_result(benchmark, run_dir, stdout, stderr, instance_path):
+def clean_output_file(file):
+
+    try:
+        cleaned = open(file + ".cleaned", "w")
+        founded = False
+
+        with open(file) as f:
+            for line in f:
+                if line.__contains__('0.000:'):
+                    founded = True
+                if founded:
+                    cleaned.write(line)
+
+        cleaned.close()
+    except IOError:
+        return False
+
+    return True
+
+def verify_result(benchmark, run_dir, stdout, stderr, instance_path, config):
 
     options = [None]
 
-    if (CONFIG_TEMPORAL_DOMAINS):
+    if (config.temporal_domains):
         options = ["0.0001", "0.001", "0.01", "0.1", None]
 
     valid_plan = False
@@ -117,26 +137,33 @@ def verify_result(benchmark, run_dir, stdout, stderr, instance_path):
         stderr.write("No plans generated.\n")
         return valid_plan
     for plan in plans:
+
         print "checking plan", plan
         copy(plan, os.path.join(instance_path, plan.split('/')[-1]))
 
         for option in options:
             info = generate_info(benchmark.domain_path, benchmark.problem_path, plan, option)
-            print "checking plan", plan
-            try:
-                output = check_output(info, stderr=stderr).decode()
-                stdout.write(output)
-                plan_cost = parse_val_output(output)
-                if plan_cost is not None:
-                    valid_plan = True
-                    break
-                #if not (lb <= plan_cost <= ub):
-                #    stderr.write("Plan cost of %d is outside of expected bounds of [%d, %d].\n" % (plan_cost, lb, ub))
-                #    return False
-            except CalledProcessError, err:
-                stderr.write(str(err))
-                print(err)
-                continue
+
+            if clean_output_file(plan):
+
+                info[len(info)-1] = plan + ".cleaned"
+                copy(info[len(info)-1], os.path.join(instance_path, info[len(info)-1].split('/')[-1]))
+                print("checking plan" + info[len(info)-1] + " built from " + plan)
+
+                try:
+                    output = check_output(info, stderr=stderr).decode()
+                    stdout.write(output)
+                    plan_cost = parse_val_output(output)
+                    if plan_cost is not None:
+                        valid_plan = True
+                        break
+                    #if not (lb <= plan_cost <= ub):
+                    #    stderr.write("Plan cost of %d is outside of expected bounds of [%d, %d].\n" % (plan_cost, lb, ub))
+                    #    return False
+                except CalledProcessError, err:
+                    stderr.write(str(err))
+                    print(err)
+                    continue
 
     if valid_plan:
         print "verified", len(plans), "plans"
@@ -145,7 +172,7 @@ def verify_result(benchmark, run_dir, stdout, stderr, instance_path):
     return True
 
 
-def test_container_on_benchmark(image_path, benchmark, instance_path):
+def test_container_on_benchmark(image_path, benchmark, instance_path, config):
 
     image_name = os.path.splitext(os.path.basename(image_path))[0]
     logs = LogFiles("%s-%s-%s" % (image_name, benchmark.folder, benchmark.problem[:-5]), instance_path)
@@ -171,7 +198,7 @@ def test_container_on_benchmark(image_path, benchmark, instance_path):
         except CalledProcessError, err:
             stderr.write(str(err))
         try:
-            result.success = verify_result(benchmark, run_dir, stdout, stderr, instance_path)
+            result.success = verify_result(benchmark, run_dir, stdout, stderr, instance_path, config)
         except CalledProcessError, err:
             stderr.write(str(err))
     print "ok" if result.success else "failed"

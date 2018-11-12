@@ -50,6 +50,34 @@ def rmtree(path):
         pass
 
 
+class Configuration(object):
+    def __init__(self, time, memory, temporal, proccessor, verb):
+        self.time_limit = time
+        self.memory_limit = memory
+        self.temporal_domains = temporal
+        self.number_proccessor = proccessor
+        self.verbosity = verb
+        self.force_overwrite = True
+
+    def getTimeLimit(self):
+        return self.time_limit
+
+    def getMemoryLimit(self):
+        return self.memory_limit
+
+    def isTemporal(self):
+        return self.temporal_domains
+
+    def getNumberProccessor(self):
+        return self.number_proccessor
+
+    def isVervosity(self):
+        return self.verbosity
+
+    def forceOverwrite(self):
+        return self.force_overwrite
+
+
 class LogFiles(object):
     def __init__(self, name, path = None):
 
