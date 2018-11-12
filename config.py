@@ -3,6 +3,7 @@ import shutil
 import tempfile
 import subprocess
 
+#PATH files dir
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 FILES_DIR = os.path.join(SCRIPT_DIR, "files")
 REPO_DIR = os.path.join(SCRIPT_DIR, "repositories")
@@ -13,9 +14,11 @@ PLANNER_BENCHMARKS_DIR = os.path.join(SCRIPT_DIR, "benchmarks")
 PLANNER_DIR = os.path.join(SCRIPT_DIR, "planners")
 RESULT_OUTPUT = os.path.join(SCRIPT_DIR, "results")
 RESULT_CACHE = os.path.join(SCRIPT_DIR, ".last_results.pickle")
-
 VAL_PATH = os.path.join(SCRIPT_DIR, "validate")
-TEMPORAL_DOMAINS = False
+
+CONFIG_TIME_LIMIT = 1800
+CONFIG_MEMORY_LIMIT = 8
+CONFIG_TEMPORAL_DOMAINS = False
 DEFAULT_NUMBER_PROCESSOR = 20
 
 SINGULARITY_VM = os.path.join(SCRIPT_DIR, "singularityvm")
@@ -29,6 +32,7 @@ IPC2018_BENCHMARKS = os.path.join(FILES_DIR, "ipc2018", "benchmarks")
 IPC2018_PLANNERS = os.path.join(FILES_DIR, "ipc2018", "planners")
 TIPC2018_BENCHMARKS = os.path.join(FILES_DIR, "tipc2018", "benchmarks")
 TIPC2018_PLANNERS = os.path.join(FILES_DIR, "tipc2018", "planners")
+
 
 
 def makedirs(path):
@@ -67,7 +71,6 @@ class LogFiles(object):
         for x in self.file_handles:
             x.__exit__(exc_type, exc_val, exc_tb)
         self.file_handles = None
-
 
 class TempDir(object):
     def __init__(self, *args, **kwargs):

@@ -7,7 +7,7 @@ import sys
 from shutil import copy
 from subprocess import check_output, CalledProcessError
 
-from config import LogFiles, TempDir, PLANNER_BENCHMARKS_DIR, SCRIPT_DIR, RESULT_OUTPUT, VAL_PATH, TEMPORAL_DOMAINS
+from config import LogFiles, TempDir, PLANNER_BENCHMARKS_DIR, SCRIPT_DIR, RESULT_OUTPUT, VAL_PATH, CONFIG_TEMPORAL_DOMAINS
 from singularity import run_image
 
 from results import BenchmarkResult
@@ -20,6 +20,7 @@ class Benchmark(object):
         self.problem = problem.strip()
         self.domain_path = os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, domain_path.strip(), self.domain)
         self.problem_path = os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, problem_path.strip(),  self.problem)
+        self.problem_path = self.problem_path or os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, self.problem)
         self.optimal_plan_cost_lower_bound = int(optimal_plan_cost_lower_bound)
         self.optimal_plan_cost_upper_bound = int(optimal_plan_cost_upper_bound)
         self.cost_bound = int(cost_bound)
@@ -105,7 +106,7 @@ def verify_result(benchmark, run_dir, stdout, stderr, instance_path):
 
     options = [None]
 
-    if (TEMPORAL_DOMAINS):
+    if (CONFIG_TEMPORAL_DOMAINS):
         options = ["0.0001", "0.001", "0.01", "0.1", None]
 
     valid_plan = False
@@ -114,7 +115,7 @@ def verify_result(benchmark, run_dir, stdout, stderr, instance_path):
 
     if not plans:
         stderr.write("No plans generated.\n")
-        return False
+        return valid_plan
     for plan in plans:
         print "checking plan", plan
         copy(plan, os.path.join(instance_path, plan.split('/')[-1]))
@@ -136,7 +137,11 @@ def verify_result(benchmark, run_dir, stdout, stderr, instance_path):
                 stderr.write(str(err))
                 print(err)
                 continue
-    print "verified", len(plans), "plans"
+
+    if valid_plan:
+        print "verified", len(plans), "plans"
+    else:
+        print "plans could not be verified ", len(plans)
     return True
 
 

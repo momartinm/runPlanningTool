@@ -10,8 +10,8 @@ from collections import defaultdict
 from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
-from benchmarks import test_container_multiProcessor, read_benchmarks_from_file, test_container
-from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR, SCRIPT_DIR
+from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
+from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR, CONFIG_TIME_LIMIT , CONFIG_MEMORY_LIMIT
 from planners import read_planners_from_file
 from results import Result
 from results_info import getResultsForPlanner
@@ -65,9 +65,9 @@ def create_and_test_image(planner_name, planners, benchmarks=None, stored_result
 
     # TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
     # Test the image, each domain receives a different processor.
-    # pool.map(test_container_multiProcessor, test_params)
+    pool.map(test_container_multiProcessor, test_params)
 
-    result.benchmark_results = test_container(image_path, benchmarks, results_path)
+    #result.benchmark_results = test_container(image_path, benchmarks, results_path)
     result.labels = try_extract_labels(image_path)
 
     return result
@@ -110,8 +110,12 @@ if __name__ == "__main__":
                         help='a path to the file in files folder with the information about the different benchmarks.')
     parser.add_argument('-p', metavar='file path',
                         help='a path to the file in files folder with the information about the different planners which can be executed.')
-    parser.add_argument('-t', action='store_const', const=True, default=False,
+    parser.add_argument('-tmp', action='store_const', const=True, default=False,
                         help='a boolean parameter which activate temporal validation')
+    parser.add_argument('-m', metavar='memory_limit',
+                        help='Maximum RAM memory for execution in Gigabytes')
+    parser.add_argument('-t', metavar='time_limit',
+                        help='Maximum time for execution in seconds')
     parser.add_argument('-ipc2018', action='store_const', const=True, default=False,
                         help='a boolean parameter which run the benchmarks from the ipc 2018')
     parser.add_argument('-tipc2018', action='store_const', const=True, default=False,
@@ -128,7 +132,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     verbosity = True if args.v else False
-    temporal = True if args.t else False
+    temporal = True if args.tmp else False
 
     if args.ipc2018:
         benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bid)
@@ -138,8 +142,8 @@ if __name__ == "__main__":
         planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
         temporal = True
     elif args.b is not None and args.p is not None:
-        pathBenchmarks = os.path.join(SCRIPT_DIR , args.b)
-        pathPlanners = os.path.join(SCRIPT_DIR, args.p)
+        pathBenchmarks = os.path.join(FILES_DIR, args.b)
+        pathPlanners = os.path.join(FILES_DIR, args.p)
         if os.path.isfile(pathBenchmarks):
             benchmarks = read_benchmarks_from_file(pathBenchmarks, args.bid)
             if os.path.isfile(pathPlanners):
@@ -150,6 +154,12 @@ if __name__ == "__main__":
             print('Error: benchmarks file %s does not exit', pathBenchmarks)
     else:
         parser.print_usage()
+
+    if args.t is not None:
+        CONFIG_TIME_LIMIT = args.t
+
+    if args.m is not None:
+        CONFIG_MEMORY_LIMIT = args.m
 
     if args.proc is not None:
         print(int(args.proc) > multiprocessing.cpu_count())
