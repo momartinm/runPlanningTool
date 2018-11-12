@@ -144,8 +144,8 @@ if __name__ == "__main__":
         planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
         temporal = True
     elif args.b is not None and args.p is not None:
-        pathBenchmarks = os.path.join(FILES_DIR, args.b)
-        pathPlanners = os.path.join(FILES_DIR, args.p)
+        pathBenchmarks = args.b
+        pathPlanners = args.p
         if os.path.isfile(pathBenchmarks):
             benchmarks = read_benchmarks_from_file(pathBenchmarks, args.bid)
             if os.path.isfile(pathPlanners):
