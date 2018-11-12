@@ -131,26 +131,26 @@ ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p19.pddl, p19.pd
 ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p20.pddl, p20.pddl, , , 0, 0, 0
 
 #ORGANIC_SYNTHESIS_SPLIT_BENCHMARKS
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p01.pddl, p01.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p02.pddl, p02.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p03.pddl, p03.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p04.pddl, p04.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p05.pddl, p05.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p06.pddl, p06.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p07.pddl, p07.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p08.pddl, p08.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p09.pddl, p09.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p10.pddl, p10.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p11.pddl, p11.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p12.pddl, p12.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p13.pddl, p13.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p14.pddl, p14.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p15.pddl, p15.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p16.pddl, p16.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p17.pddl, p17.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p18.pddl, p18.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p19.pddl, p19.pddl, , , 0, 0, 0
-ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p01.pddl, p01.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p02.pddl, p02.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p03.pddl, p03.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p04.pddl, p04.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p05.pddl, p05.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p06.pddl, p06.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p07.pddl, p07.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p08.pddl, p08.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p09.pddl, p09.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p10.pddl, p10.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p11.pddl, p11.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p12.pddl, p12.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p13.pddl, p13.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p14.pddl, p14.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p15.pddl, p15.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p16.pddl, p16.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p17.pddl, p17.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p18.pddl, p18.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p19.pddl, p19.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p20.pddl, p20.pddl, , , 0, 0, 0
 
 #PETRI_NET_ALIGNMENT_BENCHMARKS
 PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p01.pddl, p01.pddl, , , 0, 0, 0
