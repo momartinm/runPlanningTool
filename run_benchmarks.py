@@ -10,7 +10,7 @@ from collections import defaultdict
 from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
-from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
+from benchmarks import test_container_multiProcessor, read_benchmarks_from_file, test_container
 from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR, SCRIPT_DIR
 from planners import read_planners_from_file
 from results import Result
@@ -65,9 +65,9 @@ def create_and_test_image(planner_name, planners, benchmarks=None, stored_result
 
     # TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
     # Test the image, each domain receives a different processor.
-    pool.map(test_container_multiProcessor, test_params)
+    # pool.map(test_container_multiProcessor, test_params)
 
-    #result.benchmark_results = test_container(image_path, benchmarks, results_path)
+    result.benchmark_results = test_container(image_path, benchmarks, results_path)
     result.labels = try_extract_labels(image_path)
 
     return result
