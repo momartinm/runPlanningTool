@@ -18,9 +18,8 @@ class Benchmark(object):
         self.folder = folder.strip()
         self.domain = domain.strip()
         self.problem = problem.strip()
-        self.domain_path = os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, domain_path.strip(), self.domain)
-        self.problem_path = os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, problem_path.strip(),  self.problem)
-        self.problem_path = self.problem_path or os.path.join(PLANNER_BENCHMARKS_DIR, self.folder, self.problem)
+        self.domain_path = os.path.join(PLANNER_BENCHMARKS_DIR, domain_path.strip(), self.folder, self.domain)
+        self.problem_path = os.path.join(PLANNER_BENCHMARKS_DIR, problem_path.strip(), self.folder,  self.problem)
         self.optimal_plan_cost_lower_bound = int(optimal_plan_cost_lower_bound)
         self.optimal_plan_cost_upper_bound = int(optimal_plan_cost_upper_bound)
         self.cost_bound = int(cost_bound)
@@ -68,6 +67,7 @@ def test_container(image_path, benchmarks, results_path):
     return results
 
 def test_container_multiProcessor(params):
+
 
     image_path = params[0]
     benchmarks = params[1]
