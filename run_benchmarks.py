@@ -32,7 +32,7 @@ def create_and_test_image(planner_name, planners, benchmarks, config, stored_res
     result = Result()
     test_params = []
 
-    pool = Pool(config.getNumberProccessor())
+    pool = Pool(int(config.getNumberProccessor()))
     # pool = Pool(1)
     image_path = os.path.join(IMAGES_DIR, "%s.img" % (planner_name))
 
