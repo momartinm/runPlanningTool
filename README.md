@@ -85,7 +85,7 @@ Finally the code can be executed using the python program called run_benchmarks.
 There are different options to execute this software:
 
 ```
-usage: run_benchmarks.py [-h] [-b file path] [-p file path] [-t] [-ipc2018]
+usage: run_benchmarks.py [-h] [-b file path] [-p file path] [-t] [-m] [-tmp] [-ipc2018]
                          [-tipc2018] [-proc cpu numbers]
                          [-pid Planner ID [Planner ID ...]]
                          [-bid Benchmark ID [Benchmark ID ...]] [--v]
@@ -98,7 +98,9 @@ Planning tool to run planners and domains using singularity containers. These ar
 -b benchmarks domains     a path to the file with the information about the different benchmarks.
 -p planners               a path to the file with the information about the different planners which 
                           can be executed.
--t                        a boolean parameter which activate temporal validation.
+-t                        a number parameter (integer) which defines the maximum execution time in seconds.
+-m                        a number parameter (integer) which defines the maximun RAM memory avaliable in Gigabytes.
+-tmp                      a boolean parameter which activate temporal validation.
 -ipc2018                  a boolean parameter which run the benchmarks from the ipc 2018.
 -tipc2018                 a boolean parameter which run the benchmarks from the temporal ipc 2018.
 -proc cpu-numbers         a number parameter which defines the maximum number of cpus (threads). 

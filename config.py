@@ -3,6 +3,7 @@ import shutil
 import tempfile
 import subprocess
 
+#PATH files dir
 SCRIPT_DIR = os.path.dirname(os.path.realpath(__file__))
 FILES_DIR = os.path.join(SCRIPT_DIR, "files")
 REPO_DIR = os.path.join(SCRIPT_DIR, "repositories")
@@ -13,9 +14,11 @@ PLANNER_BENCHMARKS_DIR = os.path.join(SCRIPT_DIR, "benchmarks")
 PLANNER_DIR = os.path.join(SCRIPT_DIR, "planners")
 RESULT_OUTPUT = os.path.join(SCRIPT_DIR, "results")
 RESULT_CACHE = os.path.join(SCRIPT_DIR, ".last_results.pickle")
-
 VAL_PATH = os.path.join(SCRIPT_DIR, "validate")
-TEMPORAL_DOMAINS = False
+
+CONFIG_TIME_LIMIT = 1800
+CONFIG_MEMORY_LIMIT = 8
+CONFIG_TEMPORAL_DOMAINS = False
 DEFAULT_NUMBER_PROCESSOR = 20
 
 SINGULARITY_VM = os.path.join(SCRIPT_DIR, "singularityvm")
@@ -31,6 +34,7 @@ TIPC2018_BENCHMARKS = os.path.join(FILES_DIR, "tipc2018", "benchmarks")
 TIPC2018_PLANNERS = os.path.join(FILES_DIR, "tipc2018", "planners")
 
 
+
 def makedirs(path):
     try:
         os.makedirs(path)
@@ -44,6 +48,34 @@ def rmtree(path):
     except OSError:
         # Directory probably doesn't exist.
         pass
+
+
+class Configuration(object):
+    def __init__(self, time, memory, temporal, proccessor, verb):
+        self.time_limit = time
+        self.memory_limit = memory
+        self.temporal_domains = temporal
+        self.number_proccessor = proccessor
+        self.verbosity = verb
+        self.force_overwrite = True
+
+    def getTimeLimit(self):
+        return self.time_limit
+
+    def getMemoryLimit(self):
+        return self.memory_limit
+
+    def isTemporal(self):
+        return self.temporal_domains
+
+    def getNumberProccessor(self):
+        return self.number_proccessor
+
+    def isVervosity(self):
+        return self.verbosity
+
+    def forceOverwrite(self):
+        return self.force_overwrite
 
 
 class LogFiles(object):
@@ -67,7 +99,6 @@ class LogFiles(object):
         for x in self.file_handles:
             x.__exit__(exc_type, exc_val, exc_tb)
         self.file_handles = None
-
 
 class TempDir(object):
     def __init__(self, *args, **kwargs):

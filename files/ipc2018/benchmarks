@@ -42,6 +42,28 @@ CALDERA, caldera, domain.pddl, p18.pddl, optimal-2018, optimal-2018, 0, 0, 0
 CALDERA, caldera, domain.pddl, p19.pddl, optimal-2018, optimal-2018, 0, 0, 0
 CALDERA, caldera, domain.pddl, p20.pddl, optimal-2018, optimal-2018, 0, 0, 0
 
+#CALDERA_SPLIT_BENCHMARKS
+CALDERA_SPLIT, caldera-split, domain.pddl, p01.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p02.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p03.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p04.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p05.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p06.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p07.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p08.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p09.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p10.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p11.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p12.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p13.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p14.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p15.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p16.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p17.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p18.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p19.pddl, optimal-2018, optimal-2018, 0, 0, 0
+CALDERA_SPLIT, caldera-split, domain.pddl, p20.pddl, optimal-2018, optimal-2018, 0, 0, 0
+
 #DATANET_BENCHMARKS
 DATANET, data-network, domain.pddl, p01.pddl, optimal-2018, optimal-2018, 0, 0, 0
 DATANET, data-network, domain.pddl, p02.pddl, optimal-2018, optimal-2018, 0, 0, 0
@@ -107,6 +129,28 @@ ORGANIC_SYNTHESIS, organic-synthesis, domain-p17.pddl, p17.pddl, optimal-2018, o
 ORGANIC_SYNTHESIS, organic-synthesis, domain-p18.pddl, p18.pddl, optimal-2018, optimal-2018, 0, 0, 0
 ORGANIC_SYNTHESIS, organic-synthesis, domain-p19.pddl, p19.pddl, optimal-2018, optimal-2018, 0, 0, 0
 ORGANIC_SYNTHESIS, organic-synthesis, domain-p20.pddl, p20.pddl, optimal-2018, optimal-2018, 0, 0, 0
+
+#ORGANIC_SYNTHESIS_SPLIT_BENCHMARKS
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p01.pddl, p01.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p02.pddl, p02.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p03.pddl, p03.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p04.pddl, p04.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p05.pddl, p05.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p06.pddl, p06.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p07.pddl, p07.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p08.pddl, p08.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p09.pddl, p09.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p10.pddl, p10.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p11.pddl, p11.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p12.pddl, p12.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p13.pddl, p13.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p14.pddl, p14.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p15.pddl, p15.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p16.pddl, p16.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p17.pddl, p17.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p18.pddl, p18.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p19.pddl, p19.pddl, optimal-2018, optimal-2018, 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, organic-synthesis-split, domain-p20.pddl, p20.pddl, optimal-2018, optimal-2018, 0, 0, 0
 
 #PETRI_NET_ALIGNMENT_BENCHMARKS
 PETRI_NET_ALIGNMENT, petri-net-alignment, domain-p01.pddl, p01.pddl, optimal-2018, optimal-2018, 0, 0, 0

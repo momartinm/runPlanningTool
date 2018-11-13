@@ -11,7 +11,7 @@ from multiprocessing import Pool
 
 # from repo import detect_repo_type, get_up_to_date_repo, get_tag_revision, update
 from benchmarks import test_container_multiProcessor, read_benchmarks_from_file
-from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR, SCRIPT_DIR
+from config import PLANNER_DIR, IMAGES_DIR, RESULT_CACHE, RESULT_OUTPUT, IPC2018_BENCHMARKS, TIPC2018_BENCHMARKS, IPC2018_PLANNERS, TIPC2018_PLANNERS, DEFAULT_NUMBER_PROCESSOR, FILES_DIR, CONFIG_TIME_LIMIT , CONFIG_MEMORY_LIMIT, Configuration
 from planners import read_planners_from_file
 from results import Result
 from results_info import getResultsForPlanner
@@ -28,11 +28,11 @@ def file_exists(path, force_overwrite):
             return True
     return False
 
-def create_and_test_image(planner_name, planners, benchmarks=None, stored_result=None, cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
+def create_and_test_image(planner_name, planners, benchmarks, config, stored_result=None, force_overwrite=False):
     result = Result()
     test_params = []
 
-    pool = Pool(cpu_number)
+    pool = Pool(config.getNumberProccessor())
     # pool = Pool(1)
     image_path = os.path.join(IMAGES_DIR, "%s.img" % (planner_name))
 
@@ -60,7 +60,7 @@ def create_and_test_image(planner_name, planners, benchmarks=None, stored_result
             #print value
             benchmark = {key: [value]}
             #print benchmark
-            test_params.append([""+image_path, benchmark, ""+results_path])
+            test_params.append([""+image_path, benchmark, ""+results_path, config])
 
 
     # TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
@@ -72,11 +72,11 @@ def create_and_test_image(planner_name, planners, benchmarks=None, stored_result
 
     return result
 
-def create_and_test_images(planner_names, planners, benchmarks = None, results=defaultdict(dict), cpu_number=DEFAULT_NUMBER_PROCESSOR, force_overwrite=False):
+def create_and_test_images(planner_names, planners, benchmarks, config, results=defaultdict(dict)):
     oldmask = os.umask(022)
     for planner in planner_names:
         stored_result = None #results[planner].get(track)
-        result = create_and_test_image(planner, planners, benchmarks, stored_result, cpu_number, force_overwrite)
+        result = create_and_test_image(planner, planners, benchmarks, config, stored_result)
         results[planner] = result
     os.umask(oldmask)
     return results
@@ -89,9 +89,9 @@ def save_stored_results(results):
     with open(RESULT_CACHE, "wb") as f:
         pickle.dump(results, f)
 
-def cached_create_and_test_images(planners_names, planners, benchmarks, cpu_number, force_overwrite=False):
+def cached_create_and_test_images(planners_names, planners, benchmarks, config, force_overwrite=False):
     stored_results = defaultdict(dict)
-    results = create_and_test_images(planners_names, planners, benchmarks, stored_results, cpu_number, force_overwrite)
+    results = create_and_test_images(planners_names, planners, benchmarks, config, stored_results)
     save_stored_results(results)
     return results
 
@@ -110,8 +110,12 @@ if __name__ == "__main__":
                         help='a path to the file in files folder with the information about the different benchmarks.')
     parser.add_argument('-p', metavar='file path',
                         help='a path to the file in files folder with the information about the different planners which can be executed.')
-    parser.add_argument('-t', action='store_const', const=True, default=False,
+    parser.add_argument('-tmp', action='store_const', const=True, default=False,
                         help='a boolean parameter which activate temporal validation')
+    parser.add_argument('-m', metavar='memory_limit',
+                        help='Maximum RAM memory for execution in Gigabytes')
+    parser.add_argument('-t', metavar='time_limit',
+                        help='Maximum time for execution in seconds')
     parser.add_argument('-ipc2018', action='store_const', const=True, default=False,
                         help='a boolean parameter which run the benchmarks from the ipc 2018')
     parser.add_argument('-tipc2018', action='store_const', const=True, default=False,
@@ -128,7 +132,9 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     verbosity = True if args.v else False
-    temporal = True if args.t else False
+    temporal = True if args.tmp else False
+    time_limit = args.t if args.t is not None else CONFIG_TIME_LIMIT
+    memory_limit = args.m if args.m is not None else CONFIG_MEMORY_LIMIT
 
     if args.ipc2018:
         benchmarks = read_benchmarks_from_file(IPC2018_BENCHMARKS, args.bid)
@@ -138,8 +144,8 @@ if __name__ == "__main__":
         planners = read_planners_from_file(TIPC2018_PLANNERS, args.pid)
         temporal = True
     elif args.b is not None and args.p is not None:
-        pathBenchmarks = os.path.join(SCRIPT_DIR , args.b)
-        pathPlanners = os.path.join(SCRIPT_DIR, args.p)
+        pathBenchmarks = args.b
+        pathPlanners = args.p
         if os.path.isfile(pathBenchmarks):
             benchmarks = read_benchmarks_from_file(pathBenchmarks, args.bid)
             if os.path.isfile(pathPlanners):
@@ -150,6 +156,8 @@ if __name__ == "__main__":
             print('Error: benchmarks file %s does not exit', pathBenchmarks)
     else:
         parser.print_usage()
+
+    cpu_number = 1
 
     if args.proc is not None:
         print(int(args.proc) > multiprocessing.cpu_count())
@@ -170,7 +178,8 @@ if __name__ == "__main__":
         os.mkdir(IMAGES_DIR)
 
     # print(cpu_number)
-    cached_create_and_test_images(planners_names, planners, benchmarks, int(cpu_number), False)
+    config = Configuration(time_limit, memory_limit, temporal, cpu_number, verbosity)
+    cached_create_and_test_images(planners_names, planners, benchmarks, config, False)
 
     for planner in planners_names:
         getResultsForPlanner(planner)
