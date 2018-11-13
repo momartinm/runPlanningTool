@@ -51,12 +51,12 @@ CHILD_SNACK, child-snack, domain.pddl, instance-11.pddl, optimal-2014, optimal-2
 CHILD_SNACK, child-snack, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
 CHILD_SNACK, child-snack, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
 CHILD_SNACK, child-snack, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
-CHILD_SNACK ,child-snack, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
-CHILD_SNACK ,child-snack, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
-CHILD_SNACK ,child-snack, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
-CHILD_SNACK ,child-snack, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
-CHILD_SNACK ,child-snack, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
-CHILD_SNACK ,child-snack, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK, child-snack, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK, child-snack, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK, child-snack, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK, child-snack, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK, child-snack, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK, child-snack, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
 
 #CITY_CAR_BENCHMARKS
 CITY_CAR, city-car, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
