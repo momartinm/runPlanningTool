@@ -1,0 +1,923 @@
+creating state: #264 with operator END drop rover0 rover0store
+-- Is new
+creating state: #265 with operator END take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+creating state: #266 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START drop rover0 rover0store |0|
+END drop rover0 rover0store |2|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+---
+3
+creating state: #267 with operator START sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #268 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #269 with operator START take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #270 with operator START take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #271 with operator START take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #272 with operator START take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START drop rover0 rover0store |0|
+END drop rover0 rover0store |2|
+START sample_rock rover0 rover0store waypoint2 |0|
+---
+3
+creating state: #273 with operator END calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #274 with operator END sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #275 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START drop rover0 rover0store |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END drop rover0 rover0store |2|
+---
+3
+creating state: #276 with operator START sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #277 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #278 with operator START take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #279 with operator START take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #280 with operator START take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #281 with operator START take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START drop rover0 rover0store |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+---
+3
+creating state: #282 with operator END drop rover0 rover0store
+-- Is new
+creating state: #283 with operator END take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #284 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START drop rover0 rover0store |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 high_res |0|
+---
+3
+creating state: #285 with operator END drop rover0 rover0store
+-- Is new
+creating state: #286 with operator END take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #287 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START drop rover0 rover0store |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 colour |0|
+---
+3
+creating state: #288 with operator END drop rover0 rover0store
+-- Is new
+creating state: #289 with operator END take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #290 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START drop rover0 rover0store |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 high_res |0|
+---
+3
+creating state: #291 with operator END drop rover0 rover0store
+-- Is new
+creating state: #292 with operator END take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+creating state: #293 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+END drop rover0 rover0store |2|
+START sample_rock rover0 rover0store waypoint2 |0|
+END sample_rock rover0 rover0store waypoint2 |2|
+---
+3
+creating state: #294 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #295 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #296 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+END drop rover0 rover0store |2|
+START sample_rock rover0 rover0store waypoint2 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+---
+3
+creating state: #297 with operator END calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #298 with operator END sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #299 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+END drop rover0 rover0store |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+---
+3
+creating state: #300 with operator START sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #301 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #302 with operator START take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #303 with operator START take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #304 with operator START take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #305 with operator START take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+END drop rover0 rover0store |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+START sample_rock rover0 rover0store waypoint2 |0|
+---
+3
+creating state: #306 with operator END calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #307 with operator END sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #308 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END drop rover0 rover0store |2|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+---
+3
+creating state: #309 with operator START sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #310 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #311 with operator START take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #312 with operator START take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #313 with operator START take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #314 with operator START take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END drop rover0 rover0store |2|
+START sample_rock rover0 rover0store waypoint2 |0|
+---
+3
+creating state: #315 with operator END calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #316 with operator END sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #317 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END drop rover0 rover0store |2|
+---
+3
+creating state: #318 with operator START sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #319 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #320 with operator START take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #321 with operator START take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #322 with operator START take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #323 with operator START take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+---
+3
+creating state: #324 with operator END drop rover0 rover0store
+-- Is new
+creating state: #325 with operator END take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #326 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 high_res |0|
+---
+3
+creating state: #327 with operator END drop rover0 rover0store
+-- Is new
+creating state: #328 with operator END take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #329 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 colour |0|
+---
+3
+creating state: #330 with operator END drop rover0 rover0store
+-- Is new
+creating state: #331 with operator END take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #332 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 high_res |0|
+---
+3
+creating state: #333 with operator END drop rover0 rover0store
+-- Is new
+creating state: #334 with operator END take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+creating state: #335 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+END take_image rover0 waypoint2 objective0 camera0 colour |2|
+---
+3
+creating state: #336 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #337 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #338 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+START drop rover0 rover0store |0|
+---
+3
+creating state: #339 with operator END drop rover0 rover0store
+-- Is new
+creating state: #340 with operator END take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #341 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 high_res |0|
+END take_image rover0 waypoint2 objective0 camera0 high_res |2|
+---
+3
+creating state: #342 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #343 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #344 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 high_res |0|
+START drop rover0 rover0store |0|
+---
+3
+creating state: #345 with operator END drop rover0 rover0store
+-- Is new
+creating state: #346 with operator END take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #347 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 colour |0|
+END take_image rover0 waypoint2 objective1 camera0 colour |2|
+---
+3
+creating state: #348 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #349 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #350 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 colour |0|
+START drop rover0 rover0store |0|
+---
+3
+creating state: #351 with operator END drop rover0 rover0store
+-- Is new
+creating state: #352 with operator END take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #353 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 high_res |0|
+END take_image rover0 waypoint2 objective1 camera0 high_res |2|
+---
+3
+creating state: #354 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #355 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #356 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START take_image rover0 waypoint2 objective1 camera0 high_res |0|
+START drop rover0 rover0store |0|
+---
+3
+creating state: #357 with operator END drop rover0 rover0store
+-- Is new
+creating state: #358 with operator END take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+creating state: #359 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+END drop rover0 rover0store |2|
+---
+3
+creating state: #360 with operator START sample_rock rover0 rover0store waypoint2
+-- Is new
+creating state: #361 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #362 with operator START take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #363 with operator START take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #364 with operator START take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #365 with operator START take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+---
+3
+creating state: #366 with operator END drop rover0 rover0store
+-- Is new
+creating state: #367 with operator END take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #368 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START take_image rover0 waypoint2 objective0 camera0 high_res |0|
+---
+3
+creating state: #369 with operator END drop rover0 rover0store
+-- Is new
+creating state: #370 with operator END take_image rover0 waypoint2 objective0 camera0 high_res
+-- Is new
+creating state: #371 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START take_image rover0 waypoint2 objective1 camera0 colour |0|
+---
+3
+creating state: #372 with operator END drop rover0 rover0store
+-- Is new
+creating state: #373 with operator END take_image rover0 waypoint2 objective1 camera0 colour
+-- Is new
+creating state: #374 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+START take_image rover0 waypoint2 objective1 camera0 high_res |0|
+---
+3
+creating state: #375 with operator END drop rover0 rover0store
+-- Is new
+creating state: #376 with operator END take_image rover0 waypoint2 objective1 camera0 high_res
+-- Is new
+creating state: #377 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+END take_image rover0 waypoint2 objective0 camera0 colour |2|
+---
+3
+creating state: #378 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #379 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #380 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+---
+3
+creating state: #381 with operator END drop rover0 rover0store
+-- Is new
+creating state: #382 with operator END take_image rover0 waypoint2 objective0 camera0 colour
+-- Is new
+creating state: #383 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+END take_image rover0 waypoint2 objective0 camera0 colour |2|
+END sample_soil rover0 rover0store waypoint2 |2|
+---
+3
+creating state: #384 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #385 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #386 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 colour |0|
+END take_image rover0 waypoint2 objective0 camera0 colour |2|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+---
+3
+creating state: #387 with operator END calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #388 with operator END sample_soil rover0 rover0store waypoint2
+-- Is new
+creating state: #389 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 high_res |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+END take_image rover0 waypoint2 objective0 camera0 high_res |2|
+---
+3
+creating state: #390 with operator END communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0
+-- Is new
+creating state: #391 with operator START calibrate rover0 camera0 objective1 waypoint2
+-- Is new
+creating state: #392 with operator START drop rover0 rover0store
+-- Is new
+---
+START calibrate rover0 camera0 objective1 waypoint3 |0|
+END calibrate rover0 camera0 objective1 waypoint3 |2|
+START take_image rover0 waypoint3 objective1 camera0 high_res |0|
+END take_image rover0 waypoint3 objective1 camera0 high_res |2|
+START navigate rover0 waypoint3 waypoint1 |0|
+END navigate rover0 waypoint3 waypoint1 |2|
+START navigate rover0 waypoint1 waypoint2 |0|
+END navigate rover0 waypoint1 waypoint2 |2|
+START sample_soil rover0 rover0store waypoint2 |0|
+START communicate_image_data rover0 general objective1 high_res waypoint2 waypoint0 |0|
+START calibrate rover0 camera0 objective1 waypoint2 |0|
+END calibrate rover0 camera0 objective1 waypoint2 |2|
+START take_image rover0 waypoint2 objective0 camera0 high_res |0|
+END sample_soil rover0 rover0store waypoint2 |2|
+START drop rover0 rover0store |0|
+
