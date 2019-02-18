@@ -1,0 +1,859 @@
+#BARMAN_BENCHMARKS
+BARMAN11, barman, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011, 0, 0, 0
+BARMAN11, barman, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+BARMAN11, barman, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#ELEVATOR_BENCHMARKS
+ELEVATOR11, elevator, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+ELEVATOR11, elevator, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#FLOOR_TILE_BENCHMARKS
+FLOOR_TILE11, floor-tile, domain-instance-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-2.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-3.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-4.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-5.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-6.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-7.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-8.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-9.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-10.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-11.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-12.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-13.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-14.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-15.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-16.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-17.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-18.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-19.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain-instance-20.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#NO_MYSTERY_BENCHMARKS
+NO_MYSTERY11, no-mistery, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11,no-mistery, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11,no-mistery, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11,no-mistery, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11,no-mistery, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11,no-mistery, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11,no-mistery, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#CITY_CAR_BENCHMARKS
+CITY_CAR11, city-car, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+CITY_CAR11, city-car, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#OPENSTACKS_BENCHMARKS
+OPENSTACKS11, openstacks, domain-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-2.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-3.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-4.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-5.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-6.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-7.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-8.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-9.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-10.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-11.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-12.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-13.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-14.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-15.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-16.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-17.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-18.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-19.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+OPENSTACKS11, openstacks, domain-20.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#PARKPRINTER_BENCHMARKS
+PARKPRINTER11, parc-printer, domain-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-2.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-3.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-4.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-5.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-6.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-7.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-8.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-9.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-10.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-11.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-12.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-13.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-14.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-15.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-16.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-17.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-18.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-19.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKPRINTER11, parc-printer, domain-20.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#PARKING_BENCHMARKS
+PARKING11, parking, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+PARKING11, parking, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+
+#PEG_SOLITAIRE_BENCHMARKS
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-2.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-3.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-4.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-5.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-6.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-7.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-8.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-9.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-10.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-11.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-12.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-13.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-14.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-15.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-16.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-17.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-18.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-19.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain-instance-20.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#SCANALYZER-3D_BENCHMARKS
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#SOKOBAN_BENCHMARKS
+SOKOBAN11, sokoban, domain-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-2.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-3.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-4.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-5.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-6.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-7.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-8.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-9.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-10.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-11.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-12.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-13.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-14.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-15.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-16.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-17.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-18.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-19.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+SOKOBAN11, sokoban, domain-20.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#TIDYBOT_BENCHMARKS
+TIDYBOT11, tidybot, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+TIDYBOT11, tidybot, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#TRANSPORT_BENCHMARKS
+TRANSPORT11, transport, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+TRANSPORT11, transport, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#VISIT_ALL_BENCHMARKS
+VISIT_ALL11, visit-all, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+VISIT_ALL11, visit-all, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+
+#BARMAN_BENCHMARKS
+BARMAN14, barman, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014, 0, 0, 0
+BARMAN14, barman, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+BARMAN14, barman, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#CAVE_DIVING_BENCHMARKS
+CAVE_DIVING14, cave-diving, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+CAVE_DIVING14, cave-diving, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#CHILD_SNACK_BENCHMARKS
+CHILD_SNACK14, child-snack, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+CHILD_SNACK14, child-snack, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#CITY_CAR_BENCHMARKS
+CITY_CAR14, city-car, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+CITY_CAR14, city-car, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#FLOOR_TILE_BENCHMARKS
+FLOOR_TILE14, floor-tile, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+FLOOR_TILE14, floor-tile, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#HIKING_BENCHMARKS
+HIKING14, hiking, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+HIKING14, hiking, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#OPENSTACKS_BENCHMARKS
+OPENSTACKS14, openstacks, domain-1.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-2.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-3.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-4.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-5.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-6.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-7.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-8.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-9.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-10.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-11.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-12.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-13.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-14.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-15.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-16.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-17.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-18.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-19.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+OPENSTACKS14, openstacks, domain-20.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#PARKING_BENCHMARKS
+PARKING14, parking, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+PARKING14, parking, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#TETRIS_BENCHMARKS
+TETRIS14, tetris, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+TETRIS14, tetris, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+#TETRIS, tetris, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+#TETRIS, tetris, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+#TETRIS, tetris, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#TIDYBOT_BENCHMARKS
+TIDYBOT14, tidybot, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14, tidybot, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14, tidybot, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+TIDYBOT14 tidybot, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#TRANSPORT_BENCHMARKS
+TRANSPORT14, transport, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+TRANSPORT14, transport, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#VISIT_ALL_BENCHMARKS
+VISIT_ALL14, visit-all, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-3.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-4.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-5.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-6.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-7.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-8.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-9.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-10.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-11.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-12.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-13.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
+VISIT_ALL14, visit-all, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
+
+#GED_BENCHMARKS
+GED14, ged, domain.pddl, p01.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p02.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p03.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p04.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p05.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p06.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p07.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p08.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p09.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p10.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p11.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p12.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p13.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p14.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p15.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p16.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p17.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p18.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p19.pddl, optimal-2014, optimal-2014, 0, 0, 0
+GED14, ged, domain.pddl, p20.pddl, optimal-2014, optimal-2014, 0, 0, 0
+
+#MAINTENANCE_BENCHMARKS
+MAINTENANCE14, maintenance, domain.pddl, p01.pddl, optimal-2014, optimal-2014, 0, 0, 0
+MAINTENANCE14, maintenance, domain.pddl, p02.pddl, optimal-2014, optimal-2014, 0, 0, 0
+MAINTENANCE14, maintenance, domain.pddl, p03.pddl, optimal-2014, optimal-2014, 0, 0, 0
+MAINTENANCE14, maintenance, domain.pddl, p04.pddl, optimal-2014, optimal-2014, 0, 0, 0
+MAINTENANCE14, maintenance, domain.pddl, p05.pddl, optimal-2014, optimal-2014, 0, 0, 0
+
+#AGRICOLA_BENCHMARKS
+AGRICOLA, optimal-2018/agricola, domain.pddl, p01.pddl,, , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p02.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p03.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p04.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p05.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p06.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p07.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p08.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p09.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p10.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p11.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p12.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p13.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p14.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p15.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p16.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p17.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p18.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p19.pddl, , , 0, 0, 0
+AGRICOLA, optimal-2018/agricola, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#CALDERA_BENCHMARKS
+CALDERA, optimal-2018/caldera, domain.pddl, p01.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p02.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p03.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p04.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p05.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p06.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p07.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p08.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p09.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p10.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p11.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p12.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p13.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p14.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p15.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p16.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p17.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p18.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p19.pddl, , , 0, 0, 0
+CALDERA, optimal-2018/caldera, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#CALDERA_SPLIT_BENCHMARKS
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p01.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p02.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p03.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p04.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p05.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p06.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p07.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p08.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p09.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p10.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p11.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p12.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p13.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p14.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p15.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p16.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p17.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p18.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p19.pddl, , , 0, 0, 0
+CALDERA-SPLIT, optimal-2018/caldera-split, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#DATANET_BENCHMARKS
+DATANET, optimal-2018/data-network, domain.pddl, p01.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p02.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p03.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p04.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p05.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p06.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p07.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p08.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p09.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p10.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p11.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p12.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p13.pddl, , , 0, 0, 0
+DATANET, optimal-2018/data-network, domain.pddl, p14.pddl, , , 0, 0, 0
+DATANET ,optimal-2018/data-network, domain.pddl, p15.pddl, , , 0, 0, 0
+DATANET ,optimal-2018/data-network, domain.pddl, p16.pddl, , , 0, 0, 0
+DATANET ,optimal-2018/data-network, domain.pddl, p17.pddl, , , 0, 0, 0
+DATANET ,optimal-2018/data-network, domain.pddl, p18.pddl, , , 0, 0, 0
+DATANET ,optimal-2018/data-network, domain.pddl, p19.pddl, , , 0, 0, 0
+DATANET ,optimal-2018/data-network, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#NURIKABE_BENCHMARKS
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p01.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p02.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p03.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p04.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p05.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p06.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p07.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p08.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p09.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p10.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p11.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p12.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p13.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p14.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p15.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p16.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p17.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p18.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p19.pddl, , , 0, 0, 0
+NURIKABE, optimal-2018/nurikabe, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#ORGANIC_SYNTHESIS_SPLIT_BENCHMARKS
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p01.pddl, p01.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p02.pddl, p02.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p03.pddl, p03.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p04.pddl, p04.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p05.pddl, p05.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p06.pddl, p06.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p07.pddl, p07.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p08.pddl, p08.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p09.pddl, p09.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p10.pddl, p10.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p11.pddl, p11.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p12.pddl, p12.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p13.pddl, p13.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p14.pddl, p14.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p15.pddl, p15.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p16.pddl, p16.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p17.pddl, p17.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p18.pddl, p18.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p19.pddl, p19.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS, optimal-2018/organic-synthesis-split, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+
+#ORGANIC_SYNTHESIS_SPLIT_BENCHMARKS
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p01.pddl, p01.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p02.pddl, p02.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p03.pddl, p03.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p04.pddl, p04.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p05.pddl, p05.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p06.pddl, p06.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p07.pddl, p07.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p08.pddl, p08.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p09.pddl, p09.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p10.pddl, p10.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p11.pddl, p11.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p12.pddl, p12.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p13.pddl, p13.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p14.pddl, p14.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p15.pddl, p15.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p16.pddl, p16.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p17.pddl, p17.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p18.pddl, p18.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p19.pddl, p19.pddl, , , 0, 0, 0
+ORGANIC_SYNTHESIS_SPLIT, optimal-2018/organic-synthesis-split, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+
+#PETRI_NET_ALIGNMENT_BENCHMARKS
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p01.pddl, p01.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p02.pddl, p02.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p03.pddl, p03.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p04.pddl, p04.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p05.pddl, p05.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p06.pddl, p06.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p07.pddl, p07.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p08.pddl, p08.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p09.pddl, p09.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p10.pddl, p10.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p11.pddl, p11.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p12.pddl, p12.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p13.pddl, p13.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p14.pddl, p14.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p15.pddl, p15.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p16.pddl, p16.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p17.pddl, p17.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p18.pddl, p18.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p19.pddl, p19.pddl, , , 0, 0, 0
+PETRI_NET_ALIGNMENT, optimal-2018/petri-net-alignment, domain-p20.pddl, p20.pddl, , , 0, 0, 0
+
+#SETTLERS_BENCHMARKS
+SETTLERS, optimal-2018/settlers, domain.pddl, p01.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p02.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p03.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p04.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p05.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p06.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p07.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p08.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p09.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p10.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p11.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p12.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p13.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p14.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p15.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p16.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p17.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p18.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p19.pddl, , , 0, 0, 0
+SETTLERS, optimal-2018/settlers, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#SNAKE_BENCHMARKS
+SNAKE, optimal-2018/snake, domain.pddl, p01.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p02.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p03.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p04.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p05.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p06.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p07.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p08.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p09.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p10.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p11.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p12.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p13.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p14.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p15.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p16.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p17.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p18.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p19.pddl, , , 0, 0, 0
+SNAKE, optimal-2018/snake, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#SPIDER_BENCHMARKS
+SPIDER, optimal-2018/spider, domain.pddl, p01.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p02.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p03.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p04.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p05.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p06.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p07.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p08.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p09.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p10.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p11.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p12.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p13.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p14.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p15.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p16.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p17.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p18.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p19.pddl, , , 0, 0, 0
+SPIDER, optimal-2018/spider, domain.pddl, p20.pddl, , , 0, 0, 0
+
+#TERMES_BENCHMARKS
+TERMES, optimal-2018/termes, domain.pddl, p01.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p02.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p03.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p04.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p05.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p06.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p07.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p08.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p09.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p10.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p11.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p12.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p13.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p14.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p15.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p16.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p17.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p18.pddl, , , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p19.pddl, , 0, 0, 0
+TERMES, optimal-2018/termes, domain.pddl, p20.pddl, , , 0, 0, 0
