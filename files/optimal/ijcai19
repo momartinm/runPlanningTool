@@ -43,26 +43,26 @@ ELEVATOR11, elevator, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,
 ELEVATOR11, elevator, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
 
 #FLOOR_TILE_BENCHMARKS
-FLOOR_TILE11, floor-tile, domain-instance-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-2.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-3.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-4.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-5.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-6.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-7.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-8.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-9.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-10.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-11.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-12.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-13.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-14.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-15.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-16.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-17.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-18.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-19.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
-FLOOR_TILE11, floor-tile, domain-instance-20.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+FLOOR_TILE11, floor-tile, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
 
 #NO_MYSTERY_BENCHMARKS
 NO_MYSTERY11, no-mistery, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
@@ -155,26 +155,26 @@ PARKING11, parking, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0,
 
 
 #PEG_SOLITAIRE_BENCHMARKS
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-2.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-3.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-4.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-5.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-6.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-7.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-8.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-9.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-10.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-11.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-12.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-13.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-14.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-15.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-16.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-17.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-18.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-19.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
-PEG_SOLITAIRE11, peg-solitaire, domain-instance-20.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+PEG_SOLITAIRE11, peg-solitaire, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
 
 #SCANALYZER-3D_BENCHMARKS
 SCANALYZER-3D11, scanalyzer-3d, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
