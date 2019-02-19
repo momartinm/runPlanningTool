@@ -79,34 +79,13 @@ NO_MYSTERY11, no-mistery, domain.pddl, instance-11.pddl, optimal-2011, optimal-2
 NO_MYSTERY11, no-mistery, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
 NO_MYSTERY11, no-mistery, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
 NO_MYSTERY11, no-mistery, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
-NO_MYSTERY11,no-mistery, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
-NO_MYSTERY11,no-mistery, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
-NO_MYSTERY11,no-mistery, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
-NO_MYSTERY11,no-mistery, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
-NO_MYSTERY11,no-mistery, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
-NO_MYSTERY11,no-mistery, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
+NO_MYSTERY11, no-mistery, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
 
-#CITY_CAR_BENCHMARKS
-CITY_CAR11, city-car, domain.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-2.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-3.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-4.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-5.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-6.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-7.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-8.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-9.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-10.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-11.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-12.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-13.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-14.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-15.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-16.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-17.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-18.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
-CITY_CAR11, city-car, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
 
 #OPENSTACKS_BENCHMARKS
 OPENSTACKS11, openstacks, domain-1.pddl, instance-1.pddl, optimal-2011, optimal-2011,0, 0, 0
@@ -307,6 +286,29 @@ VISIT_ALL11, visit-all, domain.pddl, instance-18.pddl, optimal-2011, optimal-201
 VISIT_ALL11, visit-all, domain.pddl, instance-19.pddl, optimal-2011, optimal-2011,0, 0, 0
 VISIT_ALL11, visit-all, domain.pddl, instance-20.pddl, optimal-2011, optimal-2011,0, 0, 0
 
+#WOODWORKING_BENCHMARKS
+WOODWORKING14, woodworking, domain.pddl, p01.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p02.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p03.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p04.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p05.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p06.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p07.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p08.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p09.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p10.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p11.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p12.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p13.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p14.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p15.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p16.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p17.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p18.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p19.pddl, optimal-2011, optimal-2011, 0, 0, 0
+WOODWORKING14, woodworking, domain.pddl, p20.pddl, optimal-2011, optimal-2011, 0, 0, 0
+
+
 #BARMAN_BENCHMARKS
 BARMAN14, barman, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
 BARMAN14, barman, domain.pddl, instance-2.pddl, optimal-2014, optimal-2014,0, 0, 0
@@ -495,9 +497,6 @@ TETRIS14, tetris, domain.pddl, instance-14.pddl, optimal-2014, optimal-2014,0, 0
 TETRIS14, tetris, domain.pddl, instance-15.pddl, optimal-2014, optimal-2014,0, 0, 0
 TETRIS14, tetris, domain.pddl, instance-16.pddl, optimal-2014, optimal-2014,0, 0, 0
 TETRIS14, tetris, domain.pddl, instance-17.pddl, optimal-2014, optimal-2014,0, 0, 0
-#TETRIS, tetris, domain.pddl, instance-18.pddl, optimal-2014, optimal-2014,0, 0, 0
-#TETRIS, tetris, domain.pddl, instance-19.pddl, optimal-2014, optimal-2014,0, 0, 0
-#TETRIS, tetris, domain.pddl, instance-20.pddl, optimal-2014, optimal-2014,0, 0, 0
 
 #TIDYBOT_BENCHMARKS
 TIDYBOT14, tidybot, domain.pddl, instance-1.pddl, optimal-2014, optimal-2014,0, 0, 0
