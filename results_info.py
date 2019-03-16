@@ -7,7 +7,7 @@ def getResultsForPlanner(planner):
     plannerResults = {}
 
     if not os.path.isdir(DEFAULT_PATH+planner):
-        print("This is not a valid planner!")
+        print(planner+" is not a valid planner!")
 
     else:
         domains = [d for d in os.listdir(DEFAULT_PATH+planner) if os.path.isdir(os.path.join(DEFAULT_PATH+planner, d))]

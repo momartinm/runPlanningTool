@@ -33,7 +33,6 @@ def create_and_test_image(planner_name, planners, benchmarks, config, stored_res
     test_params = []
 
     pool = Pool(int(config.getNumberProccessor()))
-    # pool = Pool(1)
     image_path = os.path.join(IMAGES_DIR, "%s.img" % (planner_name))
 
     if file_exists(image_path, force_overwrite):
@@ -62,6 +61,11 @@ def create_and_test_image(planner_name, planners, benchmarks, config, stored_res
             #print benchmark
             test_params.append([""+image_path, benchmark, ""+results_path, config])
 
+            benchmark_results_path=""+results_path+key
+            if not os.path.exists(benchmark_results_path):
+                os.mkdir(benchmark_results_path)
+
+    # print('The test parameters: ', test_params[1])
 
     # TODO: fix KeyboardInterrupt bug - https://jreese.sh/blog/python-multiprocessing-keyboardinterrupt https://stackoverflow.com/questions/21104997/keyboard-interrupt-with-pythons-multiprocessing/21106459#21106459
     # Test the image, each domain receives a different processor.
@@ -146,6 +150,7 @@ if __name__ == "__main__":
     elif args.b is not None and args.p is not None:
         pathBenchmarks = args.b
         pathPlanners = args.p
+        print(pathPlanners)
         if os.path.isfile(pathBenchmarks):
             benchmarks = read_benchmarks_from_file(pathBenchmarks, args.bid)
             if os.path.isfile(pathPlanners):
