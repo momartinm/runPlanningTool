@@ -30,8 +30,10 @@ def read_benchmarks_from_file(file_path, names):
     benchmarks_file = open(file_path, 'r')
 
     for line in benchmarks_file:
+        # print(line)
         if len(line) > 1 and line[0] is not '#':
             features = line.split(',')
+            # print(len(features))
             if (len(features) >= 8):
                 key = features[0]
                 if names is None or key in names:
@@ -40,11 +42,11 @@ def read_benchmarks_from_file(file_path, names):
                     benchmarks[key].append(Benchmark(features[1],
                                                      features[2],
                                                      features[3],
-                                                     features[4],
                                                      features[5],
                                                      features[6],
                                                      features[7],
-                                                     features[8]))
+                                                     features[8],
+                                                     features[9]))
     benchmarks_file.close()
 
     return benchmarks
@@ -67,7 +69,6 @@ def test_container(image_path, benchmarks, results_path):
     return results
 
 def test_container_multiProcessor(params):
-
 
     image_path = params[0]
     benchmarks = params[1]
